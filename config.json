@@ -1,0 +1,9 @@
+[
+    {
+        "api_type": "azure",
+        "base_url" : "https://hkust.azure-api.net",
+        "api_version" : "2023-05-15",
+        "api_key" : "your key",
+        "model" : "gpt-35-turbo"
+    }
+]

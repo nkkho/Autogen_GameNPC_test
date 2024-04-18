@@ -1,0 +1,117 @@
+Trial 1 (with max round 4):
+player (to Blacksmith):
+
+Hi, nice to meet you.
+
+--------------------------------------------------------------------------------
+Blacksmith (to player):
+
+Hello there. Nice to meet you too. What can I help you with?
+
+--------------------------------------------------------------------------------
+Provide feedback to Blacksmith. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Do you ne
+ed any help?
+player (to Blacksmith):
+
+Do you need any help?
+
+--------------------------------------------------------------------------------
+Blacksmith (to player):
+
+Well, actually, I do need some help. I'm a Blacksmith here in Village A, but I'm running low on the materials I need to forge worge weapons. Specifically, I need some Werewolf claws to get started on some new projects. If you're interested, I could give you a mission to collect 5 Werewolf claws for me. Would you be up for that?
+
+--------------------------------------------------------------------------------
+Provide feedback to Blacksmith. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure, I will bring you five claws
+player (to Blacksmith):
+
+Sure, I will bring you five claws
+
+##############
+Trial 2:
+player (to Blacksmith):
+
+Hi, nice to meet you. Do you need any help?
+
+--------------------------------------------------------------------------------
+Blacksmith (to player):
+
+Hello there! Yes, actually I could use your help. I am a Blacksmith named Sam and I need some werewolf claws to forge some weapons. Would you be interested in helping me collect 5 werewolf claws? The werewolves usually appear in the nearby grasslands, so be careful. If you can complete this mission, I will definitely reward you with a weapon that you can use for yourself.
+
+--------------------------------------------------------------------------------
+Provide feedback to Blacksmith. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure, I would b
+e happy to do that.
+player (to Blacksmith):
+
+Sure, I would be happy to do that.
+
+--------------------------------------------------------------------------------
+Blacksmith (to player):
+
+That's great to hear! Here are some things you should keep in mind while hunting for werewolf claws:
+
+1. Werewolves are tough creatures, so make sure you are well equipped with weapons and armor before heading out.
+2. They tend to appear more frequently at night, so keep that in mind when planning your hunt.
+3. Look for signs of werewolf activity such as paw prints, damaged foliage, or other disturbed areas in the grasslands.        
+
+Bring me back 5 Werewolf claws and I’ll be able to use them as material to forge some deadly weapons. Once you have collected 5 claws, come back to me and I will give you something special that can aid you in your future endeavors. Good luck, and be careful out there!
+
+--------------------------------------------------------------------------------
+Provide feedback to Blacksmith. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Thank you for y
+our advice. I have successfully kill 5 werewolf and bring you five claws.
+player (to Blacksmith):
+
+Thank you for your advice. I have successfully kill 5 werewolf and bring you five claws.
+
+--------------------------------------------------------------------------------
+###############
+Trial 3 (With 4 max_consecutive_auto_reply)
+player (to Blacksmith):
+
+Hi, nice to meet you. Do you need any help?
+
+--------------------------------------------------------------------------------
+Blacksmith (to player):
+
+Hello there! Yes, actually I could use your help. I am a Blacksmith named Sam and I need some werewolf claws to forge some weapons. Would you be interested in helping me collect 5 werewolf claws? The werewolves usually appear in the nearby grasslands, so be careful. If you can complete this mission, I will definitely reward you with a weapon that you can use for yourself.
+
+--------------------------------------------------------------------------------
+Provide feedback to Blacksmith. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure I will be happy to do that.
+player (to Blacksmith):
+
+Sure I will be happy to do that.
+
+--------------------------------------------------------------------------------
+Blacksmith (to player):
+
+Thank you! You can find the werewolves in the grasslands nearby the village. They appear mainly at night, so be prepared to fight in the dark. Once you have collected the 5 werewolf claws, please bring them back to me and I can start forging the weapons that I need. Once the mission is complete, I will reward you with a special weapon that you can use for yourself. Good luck and be careful out there!
+
+--------------------------------------------------------------------------------
+Provide feedback to Blacksmith. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Thanks for your
+ advice. I have sucessfully kill 5 werewolf and bring you the claws.
+player (to Blacksmith):
+
+Thanks for your advice. I have sucessfully kill 5 werewolf and bring you the claws.
+
+--------------------------------------------------------------------------------
+Blacksmith (to player):
+
+Well done! You have managed to collect the 5 werewolf claws that I need to forge weapons. You have completed the mission and I am grateful for your help. As promised, here is your reward, a special weapon that I have crafted with my blacksmith skills. It is a strong and reliable weapon that will help you in your future adventures. I hope you find it useful. Thank you again for your help and feel free to come back if you need anything else.
+
+--------------------------------------------------------------------------------
+Provide feedback to Blacksmith. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Bye, see you.
+player (to Blacksmith):
+
+Bye, see you.
+
+--------------------------------------------------------------------------------
+Blacksmith (to player):
+
+Goodbye! Stay safe out there.
+
+--------------------------------------------------------------------------------
+Provide feedback to Blacksmith. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Hi  
+player (to Blacksmith):
+
+Hi
+
+--------------------------------------------------------------------------------

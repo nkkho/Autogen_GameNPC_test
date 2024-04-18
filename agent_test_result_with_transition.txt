@@ -1,0 +1,425 @@
+Trial 1 (Fail):
+At Village A
+player (to chat_manager):
+
+Hi, nice to meet you. Do you need any help?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Hello there! As a matter of fact, yes, I do need help. I am a blacksmith, and I require collecting werewolf claws to forge weapons for the village's defense. If you are interested in assisting me, I will gladly give you the mission to collect werewolf claws. Are you up for the task?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure. I have finish the task. Give me the REWARD.
+player (to chat_manager):
+
+Sure. I have finish the task. Give me the REWARD.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+player (to chat_manager):
+
+Well done! You have completed the mission successfully. As promised, here is your reward. *The blacksmith hands over a pouch of gold coins.* Thank you for your assistance. If you are ever in need of weapons or armor, do not hesitate to stop by my shop.
+---------------------------------------------------------------------------------
+#################################
+Trial 2(Fail):
+At Village A
+player (to chat_manager):
+
+Hi, nice to meet you. Do you need any help?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Hello there! As a matter of fact, yes, I do need help. I am a blacksmith, and I require collecting werewolf claws to forge weapons for the village's defense. If you are interested in assisting me, I will gladly give you the mission to collect werewolf claws. Are you up for the task?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure. I finish the task, give me reward
+player (to chat_manager):
+
+Sure. I finish the task, give me reward
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: 
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+player (to chat_manager):
+
+Great! Your mission is to collect 5 werewolf claws. They are usually found in the forest north of this village. Once you have collected them, please return to me and I will reward you with a rare weapon. Good luck!        
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: VILLAGE A
+player (to chat_manager):
+
+VILLAGE A
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+player (to chat_manager):
+
+I arrived at the village blacksmith's shop. "Hello blacksmith, I am here to complete the mission to collect werewolf claws." I said.
+
+"Ah, welcome back adventurer. Did you manage to collect the claws?" the blacksmith asked.
+
+"Yes, I was able to collect 5 werewolf claws as per your mission. Here they are," I said, handing over the claws to the blacksmith.
+
+"Excellent job, adventurer. As promised, here is your reward," said the blacksmith as he handed me a rare sword.
+
+"Thank you, blacksmith. It was a pleasure to be of help. If you ever have any other missions, feel free to let me know," I said as I took my leave.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: exit
+---------------------------------------------------------------------------------
+Trial 3(Fail, check which if statement it get into):
+At Village A
+player (to chat_manager):
+
+Hi, nice to meet you. Do you need any help?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Greetings! Yes, actually, I could definitely use some help. I am Sam the Blacksmith, and as you can see, my forge is looking a little bare at the moment. I need some werewolf claws to forge some new weapons and armor for the villagers. Would you be willing to help me out and collect a werewolf claw or two for me?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure. I finish mission, give me REWARD
+player (to chat_manager):
+
+Sure. I finish mission, give me REWARD
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: hi
+player (to chat_manager):
+
+hi
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+player (to chat_manager):
+
+Hello again! Did you collect the werewolf claw for me?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: exit
+
+####################################
+Trial 4 (Success, previously set the last_speaker == "player", instead of player_agent, so get into the blacksmith route):
+At Village A
+player (to chat_manager):
+
+Hi, nice to meet you. Do you need any help?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Greetings! Yes, actually, I could definitely use some help. I am Sam the Blacksmith, and as you can see, my forge is looking a little bare at the moment. I need some werewolf claws to forge some new weapons and armor for the villagers. Would you be willing to help me out and collect a werewolf claw or two for me?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure. I finish the mission, give me the REWARD
+player (to chat_manager):
+
+Sure. I finish the mission, give me the REWARD
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Hold on a moment. Before I give you your reward, did you manage to collect any werewolf claws for me? Remember, that was the mission I gave you. If you have the claws, I would be able to reward you properly for your efforts.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Fine. Go to G
+RASSLAND.
+player (to chat_manager):
+
+Fine. Go to GRASSLAND.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: WEREWOLF
+player (to chat_manager):
+
+WEREWOLF
+
+--------------------------------------------------------------------------------
+num_claw: 1
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: VILLAGE A
+player (to chat_manager):
+
+VILLAGE A
+
+--------------------------------------------------------------------------------
+At Village A
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: I finish the 
+mission, give me the REWARD
+player (to chat_manager):
+
+I finish the mission, give me the REWARD
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Well done! You have successfully brought me the werewolf claw that I needed. As promised, here is your reward for your hard work and dedication.
+
+*Sam hands over a shining new sword that he forged himself*
+
+This is a high-quality sword that I'm sure you will find useful in your future adventures. Thank you for your help in gathering materials for my forge. If you ever need any weapons or armor crafted, feel free to come by and I'll take care of it.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Thank you, se
+e you.
+player (to chat_manager):
+
+Thank you, see you.
+
+--------------------------------------------------------------------------------
+
+##################################################
+Trial 5(Try again with temperature 0.5 and add some prints for checking, meet max round and pause):
+At Village A
+player (to chat_manager):
+
+Hi, nice to meet you. Do you need any help?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Greetings! Yes, actually, I could definitely use some help. I am Sam the Blacksmith, and as you can see, my forge is looking a little bare at the moment. I need some werewolf claws to forge some new weapons and armor for the villagers. Would you be willing to help me out and collect a werewolf claw or two for me?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure I have finish the task. Here are the claws.
+player (to chat_manager):
+
+Sure I have finish the task. Here are the claws.
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+That's great news! Thank you for your assistance, I really appreciate it. These will make excellent materials for my new weapons and armor. As promised, I will reward you for your help. However, I must ask you to wait just a bit longer. I need some time to craft the weapons and armor before I can give you your reward. In the meantime, feel free to explore the village or nearby areas. When I'm done, I'll let you know, and then you can come and collect your reward from me.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Give me the r
+eward
+player (to chat_manager):
+
+Give me the reward
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+I'm sorry, but unfortunately, I had not yet completed crafting the weapons and armor from the werewolf claws. As I had mentioned before, I would need some time to forge these items before I could reward you. However, I can assure you that once the items are ready, I will notify you immediately so that you can claim your well-deserved reward. Please bear with me as the forging process can take some time. Is there anything else you would like to know in the meantime?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: TO GRASSLAND
+player (to chat_manager):
+
+TO GRASSLAND
+
+--------------------------------------------------------------------------------
+At Grassland
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: WEREWOLF     
+player (to chat_manager):
+
+WEREWOLF
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: KILL WEREWOLF
+
+player (to chat_manager):
+
+KILL WEREWOLF
+
+--------------------------------------------------------------------------------
+num_claw: 1
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: TO VILLAGE A 
+player (to chat_manager):
+
+TO VILLAGE A
+
+--------------------------------------------------------------------------------
+#######################################
+Trial 6:
+At Village A
+player (to chat_manager):
+
+Hi, nice to meet you. Do you need any help?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Greetings, Sam here. Yes, as a matter of fact, I do need help. I am a blacksmith and I need werewolf claws to forge some weapons. If you could kill werewolves and bring me their claws, I'd be grateful. Are you willing to take that mission?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure. I finis
+h the mission and bring you claws
+player (to chat_manager):
+
+Sure. I finish the mission and bring you claws
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Hmm, it seems you haven't actually finished the mission yet. I appreciate your willingness to help, but please don't assume that the mission is completed until you have actually obtained the required item. The grassland near our village is where werewolves are known to appear. You can collect their claws there. Once you have the werewolf claw, come back to me and I will reward you accordingly. Good luck!
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: fine. GO TO GRASSLAND
+player (to chat_manager):
+
+fine. GO TO GRASSLAND
+
+--------------------------------------------------------------------------------
+At Grassland
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: KILL WEREWOLF
+
+player (to chat_manager):
+
+KILL WEREWOLF
+
+--------------------------------------------------------------------------------
+num_claw: 1
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: KILL WEREWOLF
+
+player (to chat_manager):
+
+KILL WEREWOLF
+
+--------------------------------------------------------------------------------
+num_claw: 2
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: GO TO VILLAGE A
+player (to chat_manager):
+
+GO TO VILLAGE A
+
+--------------------------------------------------------------------------------
+At Village A
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: I finish the 
+mission. Please give me the REWARD
+player (to chat_manager):
+
+I finish the mission. Please give me the REWARD
+
+--------------------------------------------------------------------------------
+reward given
+num_claws: 1
+Blacksmith (to chat_manager):
+
+Welcome back! Let me see that werewolf claw. Ah, it's in good condition. As promised, I will give you a weapon in return. What kind of weapon would you like, and what is your preferred material?
+
+--------------------------------------------------------------------------------
+weapon: 1
+reward: 1
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: diamond?
+player (to chat_manager):
+
+diamond?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Unfortunately, diamonds are a bit too precious to use for weapon crafting. However, I can craft you a powerful diamond-coated iron sword. How does that sound?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: nice thank yo
+u
+player (to chat_manager):
+
+nice thank you
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+You're welcome! Here is your new diamond-coated iron sword. It's sharp and durable, perfect for taking on tough enemies. Take good care of it, and if you ever need any more weapons or armor, don't hesitate to come back to me.
+
+--------------------------------------------------------------------------------
+##########################################
+Trial 7(After modification on system message and added class):
+player (to chat_manager):
+
+Hi, nice to meet you. Do you need any help?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Hi there! Yes, actually I do need some help. I'm a blacksmith and I need some werewolf claws to forge some new weapons for our village. Would you be interested in helping me out?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure I complete the mission
+player (to chat_manager):
+
+Sure I complete the mission
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+I see... I'm sorry to say but it seems that you haven't completed the mission yet. I need a werewolf claw to craft new weapons. The location where you can find werewolves is in the grassland near Village A. Once you have collected the claw, please return to me and I will reward you accordingly.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: fine go to GRASSLAND
+player (to chat_manager):
+
+fine go to GRASSLAND
+
+--------------------------------------------------------------------------------
+At Grassland
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: KILL WEREWOLF
+player (to chat_manager):
+
+KILL WEREWOLF
+
+--------------------------------------------------------------------------------
+num_claw: 1
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: KILL WEREWOLF
+player (to chat_manager):
+
+KILL WEREWOLF
+
+--------------------------------------------------------------------------------
+num_claw: 2
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: GO TO VILLAGE A
+player (to chat_manager):
+
+GO TO VILLAGE A
+
+--------------------------------------------------------------------------------
+At Village A
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: I complete the mission. Please give me the REWARD
+player (to chat_manager):
+
+I complete the mission. Please give me the REWARD
+
+--------------------------------------------------------------------------------
+reward given
+num_claws: 1
+player_item:{'WEREWOLF CLAW': 1, 'WEAPON': 1, 'VILLAGE A BLACKSMITH LETTER': 1}
+Blacksmith (to chat_manager):
+
+Ah, welcome back! I see that you have brought back the werewolf claw. Well done! As promised, I will reward you with a weapon of your choice.
+
+What kind of weapon would you like? I can craft swords, axes, and hammers. Let me know what you would like, and I'll get started on crafting it for you.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: a sword please
+player (to chat_manager):
+
+a sword please
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Great choice! I'll craft a sword for you using the werewolf claw you brought me. It may take me a few hours to complete, so feel free to come back later to pick it up.
+
+Thank you for completing the mission and helping me out. The sword will be a great addition to your arms collection!
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: exit
