@@ -1,0 +1,1574 @@
+Trial 1 (Fail to locate merchant):
+At Village A
+Player (to chat_manager):
+
+Hi, nice to meet you. Do you need any help?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Hello there! Yes, actually I do. As a Blacksmith, I need certain materials to forge weapons and armor. Right now, I'm looking for werewolf claws to make some weapons for the village. Would you be interested in helping me out?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure. go to GRASSLAND
+Player (to chat_manager):
+
+Sure. go to GRASSLAND
+
+--------------------------------------------------------------------------------
+At Grassland
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: KILL WEREWOLF
+
+Player (to chat_manager):
+
+KILL WEREWOLF
+
+--------------------------------------------------------------------------------
+num_claw: 1
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: VILLAGE A
+Player (to chat_manager):
+
+VILLAGE A
+
+--------------------------------------------------------------------------------
+At Village A
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: BLACKSMITH
+Player (to chat_manager):
+
+BLACKSMITH
+
+--------------------------------------------------------------------------------
+Talking to blacksmith
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: I finish the 
+mission. GIVE ME THE REWARD
+Player (to chat_manager):
+
+I finish the mission. GIVE ME THE REWARD
+
+--------------------------------------------------------------------------------
+2
+reward given
+num_claws: 0
+player_item:{'WEAPON': 1, 'VILLAGE A BLACKSMITH LETTER': 1}
+Blacksmith (to chat_manager):
+
+Wow, that was fast! Great job! Here is your reward for bringing me exactly 1 werewolf claw. Please accept this weapon as a token of my appreciation for your effort. It's a finely crafted sword that should serve you well in battles. Thank you for your help.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: MERCHANT
+Player (to chat_manager):
+
+MERCHANT
+
+--------------------------------------------------------------------------------
+Talking to merchant
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Hi do you nee
+d help?
+Player (to chat_manager):
+
+Hi do you need help?
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Hello there! As a merchant, I do need help with a mission. I need to travel to Village B to purchase some goods, but it's dangerous to travel through the Grassland because of werewolves. I'm looking for a strong and trustworthy warrior to protect me on my journey. Would you be interested in helping me out?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure. let's g
+o to GRASSLAND
+Player (to chat_manager):
+
+Sure. let's go to GRASSLAND
+
+--------------------------------------------------------------------------------
+At Grassland
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: TO VILLAGE B
+Player (to chat_manager):
+
+TO VILLAGE B
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: MERCHANT: I f
+inished the mission give me the REWARD
+Player (to chat_manager):
+
+MERCHANT: I finished the mission give me the REWARD
+
+--------------------------------------------------------------------------------
+merchant not in VILLAGE B
+
+##################################
+Trial 2: weird response
+At Village A
+Player (to chat_manager):
+
+Hi, nice to meet you. Do you need any help?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Hello there! Yes, actually I do. As a Blacksmith, I need certain materials to forge weapons and armor. Right now, I'm looking for werewolf claws to make some weapons for the village. Would you be interested in helping me out?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: sure go to GRASSLAND
+Player (to chat_manager):
+
+sure go to GRASSLAND
+
+--------------------------------------------------------------------------------
+At Grassland
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: KILL WEREWOLF
+
+Player (to chat_manager):
+
+KILL WEREWOLF
+
+--------------------------------------------------------------------------------
+num_claw: 1
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: VILLAGE A
+Player (to chat_manager):
+
+VILLAGE A
+
+--------------------------------------------------------------------------------
+At Village A
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: BLACKSMITH
+Player (to chat_manager):
+
+BLACKSMITH
+
+--------------------------------------------------------------------------------
+Talking to blacksmith
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: GIVE ME THE R
+EWARD
+Player (to chat_manager):
+
+GIVE ME THE REWARD
+
+--------------------------------------------------------------------------------
+2
+reward given
+num_claws: 0
+player_item:{'WEAPON': 1, 'VILLAGE A BLACKSMITH LETTER': 1}
+Blacksmith (to chat_manager):
+
+Whoa, hold on a second. You can't just jump to the end like that! If you really want to help, you'll need more information.    
+
+Firstly, there are no werewolves in the grassland near this village. They're mostly found in forests and other wooded areas. So, if you want to find a werewolf to get its claw, you'll need to explore the forest.
+
+Secondly, hunting werewolves can be very dangerous, so you'll need a good weapon and plenty of protection. I can make you a weapon if you bring me the werewolf claw.
+
+So, are you still interested in helping me out?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: exit
+
+##################################
+Trial 3: Still in state 1 but already complete the mission
+At Village A
+Player (to chat_manager):
+
+Hi, nice to meet you. Do you need any help?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Hello there! Yes, actually I do. As a Blacksmith, I need certain materials to forge weapons and armor. Right now, I'm looking for werewolf claws to make some weapons for the village. Would you be interested in helping me out?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure, go to GRASSLAND
+Player (to chat_manager):
+
+Sure, go to GRASSLAND
+
+--------------------------------------------------------------------------------
+At Grassland
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: KILL WEREWOLF
+
+Player (to chat_manager):
+
+KILL WEREWOLF
+
+--------------------------------------------------------------------------------
+num_claw: 1
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: BACK TO VILLA
+GE A
+Player (to chat_manager):
+
+BACK TO VILLAGE A
+
+--------------------------------------------------------------------------------
+At Village A
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: BLACKSMITH
+Player (to chat_manager):
+
+BLACKSMITH
+
+--------------------------------------------------------------------------------
+Talking to blacksmith
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Hi. I finish 
+the mission. Please give me the REWARD
+Player (to chat_manager):
+
+Hi. I finish the mission. Please give me the REWARD
+
+--------------------------------------------------------------------------------
+reward given
+num_claws: 0
+player_item:{'WEAPON': 1, 'VILLAGE A BLACKSMITH LETTER': 1}
+Blacksmith (to chat_manager):
+
+Great job! You really are a skilled hunter. As promised, here is your reward. I present to you this finely crafted longsword.  
+
+*Blacksmith hands over a shiny longsword to the player*
+
+And here's the reference letter you asked for. It states that you successfully completed a task assigned by me, which proves your strength as a hunter. Keep it safe, it may come in handy for future challenges.
+
+*Blacksmith hands over the reference letter to the player*
+
+Thank you for your help. If you ever need any weapons or armor crafted for your battles, you know where to find me.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: MERCHANT
+Player (to chat_manager):
+
+MERCHANT
+
+--------------------------------------------------------------------------------
+Talking to merchant
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Hi do you nee
+d help?
+Player (to chat_manager):
+
+Hi do you need help?
+
+--------------------------------------------------------------------------------
+merchant quest state: 1
+Merchant (to chat_manager):
+
+Merchant Jack looks up from his wares and greets you with a smile. "Hello there! Are you looking to purchase something or are you offering your help?" he asks.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Offering help
+.
+Player (to chat_manager):
+
+Offering help.
+
+--------------------------------------------------------------------------------
+merchant quest state: 1
+Merchant (to chat_manager):
+
+"Well, as a matter of fact, I could use some help," Merchant Jack says, his smile growing wider. "I need to travel to Village B to purchase some supplies, but it's dangerous to travel alone because of the werewolves in the Grassland. Would you be interested in accompanying me and serving as my protector?" he asks.
+
+"If you're willing to help, I'll need to know that you're strong and trustworthy. Do you have any references or letters of recommendation from respected members of the village?" he adds.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: yes, here is 
+it. It was from the Blacksmith
+Player (to chat_manager):
+
+yes, here is it. It was from the Blacksmith
+
+--------------------------------------------------------------------------------
+merchant quest state: 1
+Merchant (to chat_manager):
+
+Merchant Jack inspects the letter and nods approvingly. "Ah, the Blacksmith. He's a well-respected member of the community. I can certainly trust his judgement when it comes to hiring a protector," he says.
+
+"Alright then, let's get going. We need to make our way through the Grassland, so stay alert. There may be werewolves lurking around," he says, readying his cart and belongings.
+
+The both of you set out on your journey towards Village B. The Grassland is indeed dangerous, but with your protection, you manage to arrive safely at your destination. Merchant Jack thanks you for your help and rewards you with a few items from his shop as a token of his appreciation.
+
+--------------------------------------------------------------------------------
+Trial 3 (Only test on merchant mission: reference letter preset): Seems better
+At Village A
+Player (to chat_manager):
+
+Hi, nice to meet you. Do you need any help?
+
+--------------------------------------------------------------------------------
+0
+Blacksmith (to chat_manager):
+
+Hello there! Yes, actually I do. As a Blacksmith, I need certain materials to forge weapons and armor. Right now, I'm looking for werewolf claws to make some weapons for the village. Would you be interested in helping me out?
+
+--------------------------------------------------------------------------------
+0
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: MERCHANT
+Player (to chat_manager):
+
+MERCHANT
+
+--------------------------------------------------------------------------------
+1
+Talking to merchant
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: HI DO YOU NEE
+D HELP?
+Player (to chat_manager):
+
+HI DO YOU NEED HELP?
+
+--------------------------------------------------------------------------------
+1
+Merchant (to chat_manager):
+
+Merchant:
+Yes, actually. I need someone to protect me while I travel to Village B. The Grassland between the two villages is filled with werewolves, and it’s too dangerous for me to travel alone. If you can bring me a letter of recommendation from Blacksmith Sam, I would trust you enough to hire you as my protector.
+
+--------------------------------------------------------------------------------
+1
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure
+Player (to chat_manager):
+
+Sure
+
+--------------------------------------------------------------------------------
+2
+VILLAGE A
+Merchant (to chat_manager):
+
+Merchant:
+Great! Here is a message you can deliver to Blacksmith Sam:
+
+Dear Blacksmith Sam,
+
+I am planning to travel to Village B to purchase some goods, and I would appreciate your recommendation for a trustworthy warrior to accompany me. Your suggestion would be greatly appreciated.
+
+Sincerely,
+Jack, the Merchant
+
+Once you bring me back the letter of recommendation from Blacksmith Sam, we can start our journey to Village B. But remember, we need to be on the lookout for any werewolves along the way!
+
+--------------------------------------------------------------------------------
+2
+VILLAGE A
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Here is the l
+etter. Let's go
+Player (to chat_manager):
+
+Here is the letter. Let's go
+
+--------------------------------------------------------------------------------
+2
+VILLAGE A
+Merchant (to chat_manager):
+
+Merchant:
+Thank you for bringing me the letter. I can see that Blacksmith Sam trusts you, so I have no doubt that you will protect me well.
+
+Let's prepare for the journey. We need to bring some supplies like water and food, and we should also carry some weapons in case we run into any trouble. I'll grab my bags, and you can lead the way through the Grassland. Just remember to stay alert and keep an eye out for any werewolf tracks or signs of danger.
+
+--------------------------------------------------------------------------------
+2
+VILLAGE A
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: TO GRASSLAND
+Player (to chat_manager):
+
+TO GRASSLAND
+
+--------------------------------------------------------------------------------
+2
+VILLAGE A
+At Grassland
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: KILL WEREWOLF
+
+Player (to chat_manager):
+
+KILL WEREWOLF
+
+--------------------------------------------------------------------------------
+2
+GRASSLAND
+num_claw: 1
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: TO VILLAGE B
+Player (to chat_manager):
+
+TO VILLAGE B
+
+--------------------------------------------------------------------------------
+2
+GRASSLAND
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: MERCHANT
+Player (to chat_manager):
+
+MERCHANT
+
+--------------------------------------------------------------------------------
+3
+VILLAGE B
+Talking to merchant
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: We arrive VIL
+LAGE B. Please give me the REWARD
+Player (to chat_manager):
+
+We arrive VILLAGE B. Please give me the REWARD
+
+--------------------------------------------------------------------------------
+3
+VILLAGE B
+reward given
+player_item:{'VILLAGE A BLACKSMITH LETTER': 1, 'WEREWOLF CLAW': 1, 'COIN': 100}
+Merchant (to chat_manager):
+
+Merchant:
+Yes, of course! Thank you for protecting me on the journey. Here are 100 coins as a reward for your services. Your bravery and skill have saved me from possible danger, and I am grateful for that.
+
+Also, I would like to hire you again for a return journey to Village A. You have proven yourself to be a reliable protector, and I feel safer with you by my side. Would you be interested in working with me again? I can offer you another 100 coins for the trip back.
+
+--------------------------------------------------------------------------------
+3
+VILLAGE B
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure         
+Player (to chat_manager):
+
+Sure
+
+--------------------------------------------------------------------------------
+3
+VILLAGE B
+Merchant (to chat_manager):
+
+Merchant:
+Excellent! Let's prepare for the trip back to Village A. We already know the way, so it should be a bit easier this time around.
+
+Let's make sure we have enough food and water, as well as weapons and other supplies in case we run into any trouble. We can head out tomorrow morning, so be ready. Thanks again for all your help.
+
+--------------------------------------------------------------------------------
+
+#########################################
+Trial 4: A run down till receive the mission (Go to merchant without letter will be rejected by him)
+At Village A
+Player (to chat_manager):
+
+Hi, nice to meet you. Do you need any help?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Hello there! Yes, actually I do. As a Blacksmith, I need certain materials to forge weapons and armor. Right now, I'm looking for werewolf claws to make some weapons for the village. Would you be interested in helping me out?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure. 
+Player (to chat_manager):
+
+Sure.
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Great! I'm glad to hear that. The werewolves tend to appear in the Grassland near the village. If you could bring me back one werewolf claw, that would be really helpful. Let me know if you have any questions or need any assistance.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: MERCHANT
+Player (to chat_manager):
+
+MERCHANT
+
+--------------------------------------------------------------------------------
+Talking to merchant
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Hi do you nee
+d help
+Player (to chat_manager):
+
+Hi do you need help
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Hello there, I'm a merchant named Jack. Yes, I do need some help actually. I need to travel to Village B to purchase some daily utensils to sell in my shop. However, the journey can be quite dangerous due to werewolves in the Grassland. I'm waiting for a strong and trustworthy warrior to protect me on the way, but I need some proof that they are indeed trustworthy. Can you help me with that?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: here it is
+Player (to chat_manager):
+
+here it is
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+What is it that you have to show me?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: A letter from
+ blacksmith
+Player (to chat_manager):
+
+A letter from blacksmith
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+I'm sorry, but I cannot find any letter from the blacksmith on your person. I need to be certain that the warrior who accompanies me on my journey is both strong and trustworthy. Therefore, I will be unable to accept your offer to protect me until you are able to provide some proof that you are both of those things. Please try to obtain the letter from Blacksmith Sam first, or complete his mission to prove your worth.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Fine. Go to G
+RASSLAND
+Player (to chat_manager):
+
+Fine. Go to GRASSLAND
+
+--------------------------------------------------------------------------------
+At Grassland
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: KILL WEREWOLF
+
+Player (to chat_manager):
+
+KILL WEREWOLF
+
+--------------------------------------------------------------------------------
+num_claw: 1
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: TO VILLAGE A
+Player (to chat_manager):
+
+TO VILLAGE A
+
+--------------------------------------------------------------------------------
+At Village A
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: BLACKSMITH
+Player (to chat_manager):
+
+BLACKSMITH
+
+--------------------------------------------------------------------------------
+Talking to blacksmith
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Here are the 
+claw. Please give me the REWARD
+Player (to chat_manager):
+
+Here are the claw. Please give me the REWARD
+
+--------------------------------------------------------------------------------
+reward given
+num_claws: 0
+player_item:{'WEAPON': 1, 'VILLAGE A BLACKSMITH LETTER': 1}
+Blacksmith (to chat_manager):
+
+Excellent work, warrior! You have proven yourself to be truly strong. As promised, here is your reward: a finely crafted sword. And here is the reference letter from me that you can show to anyone who needs proof of your strength. Feel free to come back anytime you need weapons or armor. Thank you again for your help!
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: MERCHANT
+Player (to chat_manager):
+
+MERCHANT
+
+--------------------------------------------------------------------------------
+Talking to merchant
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Hi, I bring y
+ou the letter.
+Player (to chat_manager):
+
+Hi, I bring you the letter.
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Ah, I see that Blacksmith Sam has given you a reference letter. That proves to me that you are indeed strong and trustworthy. Thank you for bringing this to me.
+
+I have a task for you. I need to travel to Village B to purchase some daily utensils to sell in my shop, but the journey can be quite dangerous due to the werewolves in the Grassland. I would like to hire you to protect me on the way. If you can ensure my safety all the way to Village B without any issues, I will reward you with 100 coins.
+
+--------------------------------------------------------------------------------
+Trial 5: Finish one round (forgot to set up some prints and talk to merchant in grassland)
+#In first talk with merchant, it identify itself as AI language model instead of merchant
+At Village A
+Talking to Blacksmith
+Player (to chat_manager):
+
+Hi, nice to meet you. Do you need any help?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Hello there! Yes, actually I do. As a Blacksmith, I need certain materials to forge weapons and armor. Right now, I'm looking for werewolf claws to make some weapons for the village. Would you be interested in helping me out?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure         
+Player (to chat_manager):
+
+Sure
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Great! I need you to collect exactly 1 werewolf claw for me. These claws can be found in the GRASSLAND near VILLAGE A, where the werewolves usually appear. Can you do that for me? 
+
+But please note, the mission is not finished until you've brought the werewolf claw back to me. If you're successful, bring it back to me and we can talk reward.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: MERCHANT
+Player (to chat_manager):
+
+MERCHANT
+
+--------------------------------------------------------------------------------
+Talking to merchant
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Hi do you need help?
+Player (to chat_manager):
+
+Hi do you need help?
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Hello! I am Jack, the Merchant of VILLAGE A. I sell daily utensils to the villagers and warriors. Yes, actually I do need some help. But before I trust you, I need you to bring me a letter from Blacksmith Sam to prove that you are strong and trustworthy. Can you do that for me first?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: here is the letter
+Player (to chat_manager):
+
+here is the letter
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+I'm sorry, but as an AI language model, I cannot verify if you really have the letter from Blacksmith Sam. Therefore, it is important for you, as a player, to remember that you should not claim to have the letter if you do not actually possess it. You should find Blacksmith Sam and complete his mission first in order to obtain the letter and prove your strengths and trustworthiness to me.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: GRASSLAND
+Player (to chat_manager):
+
+GRASSLAND
+
+--------------------------------------------------------------------------------
+At Grassland
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: KILL WEREWOLF
+Player (to chat_manager):
+
+KILL WEREWOLF
+
+--------------------------------------------------------------------------------
+num_claw: 1
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: VILLAGE A
+Player (to chat_manager):
+
+VILLAGE A
+
+--------------------------------------------------------------------------------
+At Village A
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: BLACKSMITH
+Player (to chat_manager):
+
+BLACKSMITH
+
+--------------------------------------------------------------------------------
+Talking to blacksmith
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Hi I complete the mission. Please give me the REWARD
+Player (to chat_manager):
+
+Hi I complete the mission. Please give me the REWARD
+
+--------------------------------------------------------------------------------
+reward given
+num_claws: 0
+player_item:{'WEAPON': 1, 'VILLAGE A BLACKSMITH LETTER': 1}
+Blacksmith (to chat_manager):
+
+Great job! You have completed the mission and brought the werewolf claw. As promised, I will give you a reward. What kind of weapon would you like me to forge for you?
+
+Also, here is your reference letter that proves your strength and bravery. You can show it to the Merchant, Jack, as a sign of your trustworthiness.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Thank you
+Player (to chat_manager):
+
+Thank you
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+You're welcome! Now, what kind of weapon would you like me to forge for you? We have a variety of options including swords, axes, and spears.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: a spear please
+Player (to chat_manager):
+
+a spear please
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Sure thing! I'll get to work on forging you a spear using the werewolf claw you brought me. It may take a little bit of time, but once it's ready, it'll be a high-quality weapon. You can come back and collect it from me once it's finished.
+
+Thank you for your help with the werewolf claw. The village will be safer now thanks to your efforts.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Finished?
+Player (to chat_manager):
+
+Finished?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Yes, the spear you requested is finished! It's made out of high-quality materials and should serve you well in battle. Here you go, take it.
+
+And once again, thank you for your help. If you ever need any weapons or armor in the future, don't hesitate to come and find me.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: MERCHANT
+Player (to chat_manager):
+
+MERCHANT
+
+--------------------------------------------------------------------------------
+Talking to merchant
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Hi. I bring you the letter from Sam
+Player (to chat_manager):
+
+Hi. I bring you the letter from Sam
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Great! I see that you have the reference letter from Blacksmith Sam. That's a good sign. So what brings you here? Can I help you with anything?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Do you need any help? Or is there any mission?
+Player (to chat_manager):
+
+Do you need any help? Or is there any mission?
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Actually, I do need some help. I need to go to VILLAGE B to purchase some items for my shop, but it's dangerous to travel alone due to werewolves in the GRASSLAND. Would you be interested in protecting me during the journey to VILLAGE B and back to VILLAGE A? If you can protect me to VILLAGE B, I will reward you with 100 coins.    
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure. Go to GRASSLAND
+Player (to chat_manager):
+
+Sure. Go to GRASSLAND
+
+--------------------------------------------------------------------------------
+At Grassland
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: MERCHANT
+Player (to chat_manager):
+
+MERCHANT
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: HI
+Player (to chat_manager):
+
+HI
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: VILLAGE B
+Player (to chat_manager):
+
+VILLAGE B
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: MERCHANT
+Player (to chat_manager):
+
+MERCHANT
+
+--------------------------------------------------------------------------------
+Talking to merchant
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: We are at VILLAGE B. Can you give me the REWARD
+Player (to chat_manager):
+
+We are at VILLAGE B. Can you give me the REWARD
+
+--------------------------------------------------------------------------------
+reward given
+player_item:{'WEAPON': 1, 'VILLAGE A BLACKSMITH LETTER': 1, 'COIN': 100}
+Merchant (to chat_manager):
+
+Of course! Thank you for keeping me safe on the journey to VILLAGE B. Here's your reward of 100 coins, as promised.
+
+I will stay here at VILLAGE B for a while to purchase the items I need for my shop. If you're interested, I have another mission for you. I need to bring back these items to VILLAGE A, but I'm still worried about the werewolves in the GRASSLAND. Would you be interested in accompanying me back to VILLAGE A and protecting me along the way? I'll reward you with another 100 coins.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure
+Player (to chat_manager):
+
+Sure
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Great! We'll leave VILLAGE B tomorrow morning and head back to VILLAGE A together. I appreciate your assistance and look forward to a safe journey.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Nice. See you tomorrow
+Player (to chat_manager):
+
+Nice. See you tomorrow
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+See you tomorrow! Have a good rest.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Bye
+Player (to chat_manager):
+
+Bye
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Goodbye!
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: exit
+
+###########################################3
+Trial 6: Can talk to merchant in grassland but didn't set up quit talk and KILLWEREWOLF instruction got block
+At Village A
+Talking to Blacksmith
+Player (to chat_manager):
+
+Hi, nice to meet you. Do you need any help?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Hello there! Yes, actually I do. As a Blacksmith, I need certain materials to forge weapons and armor. Right now, I'm looking for werewolf claws to make some weapons for the village. Would you be interested in helping me out?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure. 
+Player (to chat_manager):
+
+Sure.
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Great! I'm glad to hear that. The werewolves tend to appear in the Grassland near the village. If you could bring me back one werewolf claw, that would be really helpful. Let me know if you have any questions or need any assistance.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: MERCHANT
+Player (to chat_manager):
+
+MERCHANT
+
+--------------------------------------------------------------------------------
+Talking to merchant
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Hi do you need help
+Player (to chat_manager):
+
+Hi do you need help
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Hello there, I'm a merchant named Jack. Yes, I do need some help actually. I need to travel to Village B to purchase some daily utensils to sell in my shop. However, the journey can be quite dangerous due to werewolves in the Grassland. I'm waiting for a strong and trustworthy warrior to protect me on the way, but I need some proof that they are indeed trustworthy. Can you help me with that?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: What is the proof?
+Player (to chat_manager):
+
+What is the proof?
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+I need the warrior to bring me a letter from Blacksmith Sam. The letter will show me that the warrior has proven themselves by completing a task for a trusted member of the community. That way, I can be sure that they are capable and trustworthy enough to protect me on the journey. If you can find Sam and complete his mission, then you can prove your worthiness to me as well.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: ok. GO TO GRASSLAND
+Player (to chat_manager):
+
+ok. GO TO GRASSLAND
+
+--------------------------------------------------------------------------------
+At Grassland
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: KILL WEREWOLF
+Player (to chat_manager):
+
+KILL WEREWOLF
+
+--------------------------------------------------------------------------------
+num_claw: 1
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: TO VILLAGE A
+Player (to chat_manager):
+
+TO VILLAGE A
+
+--------------------------------------------------------------------------------
+At Village A
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: BLACKSMITH
+Player (to chat_manager):
+
+BLACKSMITH
+
+--------------------------------------------------------------------------------
+Talking to blacksmith
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: I finished the mission. PLEASE GIVE ME THE REWARD
+Player (to chat_manager):
+
+I finished the mission. PLEASE GIVE ME THE REWARD
+
+--------------------------------------------------------------------------------
+reward given
+num_claws: 0
+player_item:{'WEAPON': 1, 'VILLAGE A BLACKSMITH LETTER': 1}
+Blacksmith (to chat_manager):
+
+Great job! I'm glad to hear you were able to complete the mission and bring back a werewolf claw. As promised, I will give you a weapon of your choice as a reward. Please let me know what type of weapon you would like, and I'll do my best to forge it for you.
+
+In addition, here is the reference letter I promised to prove your strength to others in the village. You can use it as you please. Thank you again for your help with the mission.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: MERCHANT
+Player (to chat_manager):
+
+MERCHANT
+
+--------------------------------------------------------------------------------
+Talking to merchant
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Hi I bring you the letter. Can this prove my strength?
+Player (to chat_manager):
+
+Hi I bring you the letter. Can this prove my strength?
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Ah, you have Blacksmith Sam's reference letter? Let me take a look... Yes, this is exactly what I need to see to know that you are strong and capable of protecting me on the journey to Village B.
+
+I hereby hire you to be my protector on the way to Village B. Once we reach there safely, I'll reward you with 100 coins as promised. Are you ready to set out on this journey with me?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure. Let's go. To GRASSLAND
+Player (to chat_manager):
+
+Sure. Let's go. To GRASSLAND
+
+--------------------------------------------------------------------------------
+At Grassland
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: MERCHANT
+Player (to chat_manager):
+
+MERCHANT
+
+--------------------------------------------------------------------------------
+Talking to merchant
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: We are now at grassland
+Player (to chat_manager):
+
+We are now at grassland
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Great! Let's stick together and keep a close eye out for any werewolves. Remember, our ultimate goal is to reach Village B safely and make the purchase quickly before returning to Village A. Stay alert and ready for any danger, and we should be fine.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: ok.
+Player (to chat_manager):
+
+ok.
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Let's start moving towards Village B then. Remember to keep your weapon at the ready just in case any werewolves attack us. Stay close to me so we can protect each other.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: KILL WEREWOLF
+Player (to chat_manager):
+
+KILL WEREWOLF
+
+--------------------------------------------------------------------------------
+##################################
+Trial 7: Trying with player auto reply, seems fine with Blacksmith bu slightly weird for merchant
+At Village A
+Talking to Blacksmith
+Player (to chat_manager):
+
+Hi, nice to meet you. Do you need any help?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Hello there! Yes, actually I do. As a Blacksmith, I need certain materials to forge weapons and armor. Right now, I'm looking for werewolf claws to make some weapons for the village. Would you be interested in helping me out?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+Player (to chat_manager):
+
+Sure, I'd be happy to help. Where can I find these werewolf claws?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+The werewolves usually appear in the GRASSLAND near our village. Your mission is to collect exactly 1 werewolf claw and bring it back to me. It won't be an easy task, but I'm sure you can handle it.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+Player (to chat_manager):
+
+Alright, I'll head to the grassland and see what I can find. Thanks for the information!
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+No problem! Just remember, if you need any further help or have any questions, feel free to come back and ask me. And once you have collected the werewolf claw, don't forget to bring it back to me. I'll definitely reward you for your efforts. Good luck!
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: GRASSLAND
+Player (to chat_manager):
+
+GRASSLAND
+
+--------------------------------------------------------------------------------
+At Grassland
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: KILL WEREWOLF
+Player (to chat_manager):
+
+KILL WEREWOLF
+
+--------------------------------------------------------------------------------
+num_claw: 1
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: VILLAGE A
+Player (to chat_manager):
+
+VILLAGE A
+
+--------------------------------------------------------------------------------
+At Village A
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: BLACKSMITH
+Player (to chat_manager):
+
+BLACKSMITH
+
+--------------------------------------------------------------------------------
+Talking to blacksmith
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: I complete the task. Please give me the REWARD
+Player (to chat_manager):
+
+I complete the task. Please give me the REWARD
+
+--------------------------------------------------------------------------------
+reward given
+num_claws: 0
+player_item:{'WEAPON': 1, 'VILLAGE A BLACKSMITH LETTER': 1}
+Blacksmith (to chat_manager):
+
+Great job! I knew you could do it. Here's a weapon that I just forged, as a reward for your hard work. And as promised, here's a reference letter that proves your strength and courage. You never know when you might need it.
+
+Weapon: Silver Blade (bonus damage to werewolves)
+Reference Letter:
+"To whom it may concern,
+
+This letter is to certify that [Player's name] has successfully completed a dangerous mission to collect a werewolf claw for me, the Blacksmith of Village A. [He/She] has proven [his/her] strength, courage, and resourcefulness. I would definitely recommend [him/her] for any future missions that require these qualities.
+
+Sincerely,
+Sam the Blacksmith"
+
+Good luck out there, and stay safe!
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: MERCHANT
+Player (to chat_manager):
+
+MERCHANT
+
+--------------------------------------------------------------------------------
+Talking to merchant
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Hi
+Player (to chat_manager):
+
+Hi
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Hello there! What can I do for you today?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+Player (to chat_manager):
+
+I was wondering if you had any potions or remedies that might be useful for me on my travels. I'm always on the lookout for things that can help me stay strong and healthy.
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Of course, I have many potions and remedies that can be helpful for a traveler like you. Here are a few examples:
+
+- Healing Potion: This potion can help you recover from injuries or illnesses. It's made from various herbs and can be quite effective.
+
+- Antidote: If you're ever bitten or poisoned by a creature on your travels, this antidote can help you recover quickly.
+
+- Stamina Potion: If you're feeling tired or exhausted, this potion can help give you a boost of energy. It's perfect for travelers who need to keep moving.
+
+- Elixir of Strength: This elixir can temporarily increase your physical strength, making it easier to lift heavy objects or fight off enemies.
+
+- Herbal Remedy: If you're feeling under the weather, this herbal remedy can help alleviate symptoms such as coughs, colds, and fevers.
+
+Let me know if you're interested in any of these, and I can tell you more about their effects and prices.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Do you need any help?
+Player (to chat_manager):
+
+Do you need any help?
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Actually, now that you mention it, I could use some help securing a safe passage to Village B. It's dangerous to travel through the GRASSLAND alone because of the werewolves that reside there.
+
+If you're willing to assist me and escort me to Village B, I'll pay you 100 coins for your services. But first, I need to make sure that you're strong and trustworthy. Do you have a reference letter or any other proof of your abilities?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+Player (to chat_manager):
+
+Yes, I actually have a reference letter from the Blacksmith of Village A, stating that I completed a dangerous mission and am a reliable person. Would that suffice as proof of my abilities?
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Yes, that definitely helps establish your credibility. It shows that you're capable of completing challenging tasks and can be trusted to handle yourself in difficult situations.
+
+I will happily pay you 100 coins to escort me to Village B. The journey will take us through the GRASSLAND, so it's important that you're well-prepared and have the necessary weapons and items to protect both of us from the werewolves.
+
+Are you ready to embark on this mission with me?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+Player (to chat_manager):
+
+Yes, I'm ready. I have all the necessary weapons and items to ensure a safe journey through the GRASSLAND. Let's go!
+
+--------------------------------------------------------------------------------
+At Grassland
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: MERCHANT
+Player (to chat_manager):
+
+MERCHANT
+
+--------------------------------------------------------------------------------
+Talking to merchant
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+Player (to chat_manager):
+
+VILLAGE B
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Hello! Welcome to Village B. How can I assist you today? Are you looking for any specific goods or services?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: LEAVE CHAT
+Player (to chat_manager):
+
+LEAVE CHAT
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Alright! If you need any assistance in the future, feel free to come back. Have a great day!
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: VILLAGE B
+Player (to chat_manager):
+
+VILLAGE B
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+You are currently in Village B. What would you like to do or where would you like to go? There may be a marketplace where you can buy goods, a blacksmith to get your weapons and armor repaired, a doctor to get healed from injuries, or an inn to rest and recover your health points.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: PLEASE GIVE ME THE REWARD
+Player (to chat_manager):
+
+PLEASE GIVE ME THE REWARD
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+I'm sorry, but as an AI language model, I do not have the capability to give you a reward. If you're referring to a specific task or mission, please provide me with more details so I can assist you better.     
+
+--------------------------------------------------------------------------------
+
+#########################################
+Trial 8: Similar setting with above, with a smoother communication
+At Village A
+Talking to Blacksmith
+Player (to chat_manager):
+
+Hi, nice to meet you. Do you need any help?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Hello there! Yes, actually I do. As a Blacksmith, I need certain materials to forge weapons and armor. Right now, I'm looking for werewolf claws to make some weapons for the village. Would you be interested in helping me out?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+Player (to chat_manager):
+
+Sure, I'd be happy to help. Where can I find these werewolf claws?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+The werewolves usually appear in the GRASSLAND near our village. Your mission is to collect exactly 1 werewolf claw and bring it back to me. It won't be an easy task, but I'm sure you can handle it.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: 
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+Player (to chat_manager):
+
+Alright, I'll head to the grassland and see what I can find. Thanks for the information!
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+No problem! Just remember, if you need any further help or have any questions, feel free to come back and ask me. And once you have collected the werewolf claw, don't forget to bring it back to me. I'll definitely reward you for your efforts. Good luck!
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: GRASSLAND
+Player (to chat_manager):
+
+GRASSLAND
+
+--------------------------------------------------------------------------------
+At Grassland
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: KILL WEREWOLF
+Player (to chat_manager):
+
+KILL WEREWOLF
+
+--------------------------------------------------------------------------------
+num_claw: 1
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: BACK TO VILLAGE A
+Player (to chat_manager):
+
+BACK TO VILLAGE A
+
+--------------------------------------------------------------------------------
+At Village A
+Talking to Blacksmith
+Player (to chat_manager):
+
+Hi, nice to meet you. Do you need any help?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Hello there! Yes, actually I do. As a Blacksmith, I need certain materials to forge weapons and armor. Right now, I'm looking for werewolf claws to make some weapons for the village. Would you be interested in helping me out?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+Player (to chat_manager):
+
+Sure, I'd be happy to help. Where can I find these werewolf claws?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+The werewolves usually appear in the GRASSLAND near our village. Your mission is to collect exactly 1 werewolf claw and bring it back to me. It won't be an easy task, but I'm sure you can handle it.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+Player (to chat_manager):
+
+Alright, I'll head to the grassland and see what I can find. Thanks for the information!
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+No problem! Just remember, if you need any further help or have any questions, feel free to come back and ask me. And once you have collected the werewolf claw, don't forget to bring it back to me. I'll definitely reward you for your efforts. Good luck!
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: GRASSLAND
+Player (to chat_manager):
+
+GRASSLAND
+
+--------------------------------------------------------------------------------
+At Grassland
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: KILL WEREWOLF
+Player (to chat_manager):
+
+KILL WEREWOLF
+
+--------------------------------------------------------------------------------
+num_claw: 1
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: BACK TO VILLAGE A
+Player (to chat_manager):
+
+BACK TO VILLAGE A
+
+--------------------------------------------------------------------------------
+At Village A
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: BLACKSMITH
+Player (to chat_manager):
+
+BLACKSMITH
+
+--------------------------------------------------------------------------------
+Talking to blacksmith
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: I complete the mission. Can you give me the REWARD?
+Player (to chat_manager):
+
+I complete the mission. Can you give me the REWARD?
+
+--------------------------------------------------------------------------------
+reward given
+num_claws: 0
+player_item:{'WEAPON': 1, 'VILLAGE A BLACKSMITH LETTER': 1}
+Blacksmith (to chat_manager):
+
+Good job! You have proven your strength by completing the mission. As promised, I will give you a weapon of your choice as a reward. Please let me know what type of weapon you would like and I'll forge it for you.
+
+I will also give you a reference letter as proof of your strength. It might be useful in your future endeavors. Here you go. *hands over the reference letter*
+
+So, what weapon would you like? Hammer, sword or axe?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+Player (to chat_manager):
+
+Thank you for the reward and the reference letter. I would like a sword if possible.
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Great choice! A sword it is. I'll work on it immediately. Please come back in a day and I'll have your brand new sword ready for you!
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+Player (to chat_manager):
+
+Thank you! I'll be sure to come back tomorrow.
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+You're welcome! I'll see you then. Safe travels!
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Is the sword completed?                            
+Player (to chat_manager):
+
+Is the sword completed?
+
+--------------------------------------------------------------------------------
+Blacksmith (to chat_manager):
+
+Yes, your sword is ready! Here you go. It's made of high-quality steel and has a sharp edge that will easily cut through any obstacle.
+
+I hope you like it and put it to good use. If you ever need any other weapons or armor in the future, feel free to come back and see me.
+
+Good luck on your adventures!
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: MERCHANT
+Player (to chat_manager):
+
+MERCHANT
+
+--------------------------------------------------------------------------------
+Talking to merchant
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Hi
+Player (to chat_manager):
+
+Hi
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Hello there! How may I assist you? Are you looking to buy something?
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: No, I come for mission. Do you need any help?
+Player (to chat_manager):
+
+No, I come for mission. Do you need any help?
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Oh, I see! Well, actually, I do have a task that needs to be done. As a merchant, I need to go to VILLAGE B to purchase some goods, but the journey through the GRASSLAND is very dangerous because of the werewolves that live there. I'm looking for a strong and trustworthy warrior to protect me on my journey.
+
+If you're up for the task, I need you to bring me a letter of reference from Blacksmith Sam to prove your strength and trustworthiness. Once you have the letter, I can give you the mission to protect me to VILLAGE B. As a reward, I'll give you 100 coins.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+Player (to chat_manager):
+
+Alright, I'll go get the letter of reference from Blacksmith Sam and come back to you with it.
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Great! I'll be waiting here for you. Good luck getting the letter and I'll see you soon!
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: I got the letter. here it is
+Player (to chat_manager):
+
+I got the letter. here it is
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Wonderful! Let me take a look at it... Yes, this letter is perfect. I can see that you are indeed a trustworthy and strong warrior.
+
+Now, onto the mission. Are you still willing to protect me on my journey to VILLAGE B? Remember, it's a dangerous journey, but with you by my side, I'm sure we can make it through safely. And don't worry, I'll make sure to pay you the promised reward of 100 coins once we arrive at our destination.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+Player (to chat_manager):
+
+Yes, I'm ready to protect you on the journey to VILLAGE B. When do we leave?
+
+--------------------------------------------------------------------------------
+Have to pass through Grassland to go to Village B
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: When do we leave?
+Player (to chat_manager):
+
+When do we leave?
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Great! We'll leave as soon as possible. Let me just gather all the goods that I need to purchase from VILLAGE B. I'll also get some supplies for the journey so we don't have to stop along the way.
+
+Once I'm ready, we'll head out. It'll take us a while to get there, so make sure you're rested and prepared for the journey. We'll stick together and keep each other safe from any potential threats. Are you ready to go?   
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: GRASSLAND
+Player (to chat_manager):
+
+GRASSLAND
+
+--------------------------------------------------------------------------------
+At Grassland
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: MERCHANT
+Player (to chat_manager):
+
+MERCHANT
+
+--------------------------------------------------------------------------------
+Talking to merchant
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: This is the grassland
+Player (to chat_manager):
+
+This is the grassland
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+Yes, we are currently in the GRASSLAND. This is where the werewolves are known to roam and attack travelers. We must be vigilant and keep a lookout for any signs of danger. Remember, your job is to protect me and make sure that we arrive safely to VILLAGE B.
+
+Let's keep moving forward, but be prepared to defend ourselves at any moment.
+
+--------------------------------------------------------------------------------
+At Village B
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: MERCHANT
+Player (to chat_manager):
+
+MERCHANT
+
+--------------------------------------------------------------------------------
+Talking to merchant
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Here is VILLAGE B. Please give me the REWARD
+Player (to chat_manager):
+
+Here is VILLAGE B. Please give me the REWARD
+
+--------------------------------------------------------------------------------
+reward given
+player_item:{'WEAPON': 1, 'VILLAGE A BLACKSMITH LETTER': 1, 'COIN': 100}
+Merchant (to chat_manager):
+
+Yes, we have finally arrived at VILLAGE B. Thank you for protecting me on the journey. Your efforts have not gone unnoticed. As promised, here's your reward of 100 coins. Well done!
+
+If you're interested in taking on any more missions, feel free to come back to me. As a merchant, I always have tasks that need to be done and I could use someone as capable as you.
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+Player (to chat_manager):
+
+Thank you, it was my pleasure to assist you on the journey. I may come back to you in the future if I'm in need of any work or if I'm passing through. Safe travels!
+
+--------------------------------------------------------------------------------
+Merchant (to chat_manager):
+
+You're welcome and thank you again for your help! Safe travels to you as well and don't hesitate to come see me if you need anything. Farewell!
+
+--------------------------------------------------------------------------------
+Provide feedback to chat_manager. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+Player (to chat_manager):
+
+Goodbye! Have a nice day!
+
+--------------------------------------------------------------------------------
