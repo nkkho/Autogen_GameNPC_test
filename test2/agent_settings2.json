@@ -1,0 +1,15 @@
+[
+    {
+        "message_path": "test2\\Blacksmithprompt.txt",
+        "name": "Sam",
+        "job":"Blacksmith",
+        "living": "VILLAGE A",
+        "personality":"passionate and friendly",
+        "quest": "kill the werewolf and bring you exactly one werewolf's claw. The location where werewolves appear is GRASSLAND near the VILLAGE A."
+    },
+    {
+        "name" : "Player",
+        "system_message" : "A human warrior just arrived VILLAGE A.",
+        "max_consecutive_auto_reply": 4
+    }
+]
