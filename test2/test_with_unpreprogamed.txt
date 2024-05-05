@@ -1,0 +1,309 @@
+trial 1:
+PS C:\Users\kelly\OneDrive\Desktop\UST\UROP1100> & c:/Users/kelly/OneDrive/Desktop/UST/UROP1100/.venv/Scripts/python.exe c:/Users/kelly/OneDrive/Desktop/UST/UROP1100/test2/agent_test2.py
+0
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+TALK
+talking to blacksmith
+None
+Hi do you need help
+Provide feedback to Player. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: hi 
+<classes2.Villager object at 0x0000022AD205DDC0>
+Traceback (most recent call last):
+  File "c:\Users\kelly\OneDrive\Desktop\UST\UROP1100\test2\agent_test2.py", line 76, in <module>
+    message = blacksmith.agent.generate_reply(sender=blacksmith.agent)
+  File "C:\Users\kelly\OneDrive\Desktop\UST\UROP1100\.venv\lib\site-packages\autogen\agentchat\conversable_agent.py", line 1912, in generate_reply
+    final, reply = reply_func(self, messages=messages, sender=sender, config=reply_func_tuple["config"])       
+  File "C:\Users\kelly\OneDrive\Desktop\UST\UROP1100\.venv\lib\site-packages\autogen\agentchat\conversable_agent.py", line 1659, in check_termination_and_human_reply
+    message = messages[-1]
+IndexError: list index out of range
+PS C:\Users\kelly\OneDrive\Desktop\UST\UROP1100> & c:/Users/kelly/OneDrive/Desktop/UST/UROP1100/.venv/Scripts/python.exe c:/Users/kelly/OneDrive/Desktop/UST/UROP1100/test2/agent_test2.py
+0
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+TALK
+talking to blacksmith
+None
+Hi. What is your name?
+Provide feedback to Player. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: 
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+<classes2.Villager object at 0x0000022828FEDDC0>
+Traceback (most recent call last):
+  File "c:\Users\kelly\OneDrive\Desktop\UST\UROP1100\test2\agent_test2.py", line 77, in <module>
+    blacksmith.broadcasting([player.agent,gamemaster.agent])
+TypeError: broadcasting() missing 1 required positional argument: 'message'
+PS C:\Users\kelly\OneDrive\Desktop\UST\UROP1100> & c:/Users/kelly/OneDrive/Desktop/UST/UROP1100/.venv/Scripts/python.exe c:/Users/kelly/OneDrive/Desktop/UST/UROP1100/test2/agent_test2.py
+0
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: 
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+TALK
+talking to blacksmith
+None
+Hi what is your name?
+<classes2.Villager object at 0x000001F5589EDDC0>
+<classes2.Player object at 0x000001F5589EDD90>
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: exit
+Traceback (most recent call last):
+  File "c:\Users\kelly\OneDrive\Desktop\UST\UROP1100\test2\agent_test2.py", line 55, in <module>
+    player.broadcasting([blacksmith.agent,gamemaster.agent],message)
+  File "c:\Users\kelly\OneDrive\Desktop\UST\UROP1100\test2\classes2.py", line 82, in broadcasting
+    self.agent.send(message,agent, request_reply=False, silent=True)
+  File "C:\Users\kelly\OneDrive\Desktop\UST\UROP1100\.venv\lib\site-packages\autogen\agentchat\conversable_agent.py", line 629, in send
+    valid = self._append_oai_message(message, "assistant", recipient)
+  File "C:\Users\kelly\OneDrive\Desktop\UST\UROP1100\.venv\lib\site-packages\autogen\agentchat\conversable_agent.py", line 555, in _append_oai_message
+    message = self._message_to_dict(message)
+  File "C:\Users\kelly\OneDrive\Desktop\UST\UROP1100\.venv\lib\site-packages\autogen\agentchat\conversable_agent.py", line 515, in _message_to_dict
+    return dict(message)
+TypeError: 'NoneType' object is not iterable
+PS C:\Users\kelly\OneDrive\Desktop\UST\UROP1100> & c:/Users/kelly/OneDrive/Desktop/UST/UROP1100/.venv/Scripts/python.exe c:/Users/kelly/OneDrive/Desktop/UST/UROP1100/test2/agent_test2.py
+  File "c:\Users\kelly\OneDrive\Desktop\UST\UROP1100\test2\agent_test2.py", line 82
+    print(f"{speaker.config["name"]}: {message}")
+                             ^
+SyntaxError: f-string: unmatched '['
+PS C:\Users\kelly\OneDrive\Desktop\UST\UROP1100> & c:/Users/kelly/OneDrive/Desktop/UST/UROP1100/.venv/Scripts/python.exe c:/Users/kelly/OneDrive/Desktop/UST/UROP1100/test2/agent_test2.py
+0
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: 
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+TALK
+talking to blacksmith
+Hi What is your name
+Player: My name is Sam. I'm the blacksmith here in Village A. How can I assist you?
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Traceback (most recent call last):
+  File "c:\Users\kelly\OneDrive\Desktop\UST\UROP1100\test2\agent_test2.py", line 53, in <module>
+    message = player.agent.generate_reply(sender=blacksmith.agent)
+  File "C:\Users\kelly\OneDrive\Desktop\UST\UROP1100\.venv\lib\site-packages\autogen\agentchat\conversable_agent.py", line 1912, in generate_reply
+    final, reply = reply_func(self, messages=messages, sender=sender, config=reply_func_tuple["config"])       
+  File "C:\Users\kelly\OneDrive\Desktop\UST\UROP1100\.venv\lib\site-packages\autogen\agentchat\conversable_agent.py", line 1664, in check_termination_and_human_reply
+    reply = self.get_human_input(
+  File "C:\Users\kelly\OneDrive\Desktop\UST\UROP1100\.venv\lib\site-packages\autogen\agentchat\conversable_agent.py", line 2029, in get_human_input
+    reply = iostream.input(prompt)
+  File "C:\Users\kelly\OneDrive\Desktop\UST\UROP1100\.venv\lib\site-packages\autogen\io\console.py", line 37, in input
+    return input(prompt)
+KeyboardInterrupt
+PS C:\Users\kelly\OneDrive\Desktop\UST\UROP1100> & c:/Users/kelly/OneDrive/Desktop/UST/UROP1100/.venv/Scripts/python.exe c:/Users/kelly/OneDrive/Desktop/UST/UROP1100/test2/agent_test2.py
+0
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+TALK
+talking to blacksmith
+Hi Do you need any help?
+Traceback (most recent call last):
+  File "c:\Users\kelly\OneDrive\Desktop\UST\UROP1100\test2\agent_test2.py", line 47, in <module>
+    print(f"{speaker.config['name']}: {message}")
+AttributeError: 'NoneType' object has no attribute 'config'
+PS C:\Users\kelly\OneDrive\Desktop\UST\UROP1100> & c:/Users/kelly/OneDrive/Desktop/UST/UROP1100/.venv/Scripts/python.exe c:/Users/kelly/OneDrive/Desktop/UST/UROP1100/test2/agent_test2.py
+0
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+TALK
+talking to blacksmith
+Hi Do you need help?
+Sam: Hello! Actually, I could use some help. Are you up for a task?
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure, what is the task
+Player: {'role': 'user', 'content': 'Sure, what is the task'}
+Sam: I'm a blacksmith, and currently, I don't have enough material to forge weapons. Thus, I need someone to kill the werewolf and bring me exactly one werewolf's claw. The location where werewolves appear is GRASSLAND near the VILLAGE A. Can you do this task for me? I'll reward you with {'WEAPON': 1, 'VILLAGE A BLACKSMITH LETTER': 1}
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure S
+ee you then
+Player: {'role': 'user', 'content': 'Sure See you then'}
+Sam: Wait! Before you go, can I confirm the quest state? Have I given you the task yet?
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: you ha
+ve given me the task
+Player: {'role': 'user', 'content': 'you have given me the task'}
+Sam: Oh! Then, I would suggest you go to the GRASSLAND near the VILLAGE A, and kill the werewolf to bring me a werewolf's claw. When you get the claw, come and find me.
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: TERMIN
+ATE
+Player: {'role': 'user', 'content': 'TERMINATE'}
+Sam: None
+Error: 'NoneType' object is not iterable
+####################################################
+Trial2 (asking user for quest state):
+0
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+TALK
+talking to blacksmith
+blacksmith quest state: The quest state for the villager is 'GIVEN'.
+Hi do you need help?
+Sam: Hello! Yes, actually I could use some help. I am a blacksmith and I need someone to help me gather some materials. Are you interested in completing a quest for me?
+blacksmith quest state: The quest state for the villager is 'GIVEN'.
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure  
+Player: Sure
+blacksmith quest state: The quest state for the villager is 'GIVEN'.
+Sam: Great! Before I tell you about the quest, may I know what is your name?
+
+blacksmith quest state: The quest state for the villager is 'GIVEN'.
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: I am p
+layer
+Player: I am player
+blacksmith quest state: The quest state for the villager is 'GIVEN'.
+Sam: Nice to meet you, player. I am Sam, the blacksmith of VILLAGE A. So, here's my quest for you. I am in need of a werewolf claw to forge a new weapon. Werewolves are seen in the GRASSLAND near our village. Can you bring me exactly one werewolf claw?
+
+blacksmith quest state: The quest state for the villager is 'GIVEN'.
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: fine, 
+see you
+Player: fine, see you
+blacksmith quest state: The quest state for the villager is 'GIVEN'.
+Sam: Hold on, I need to know if you accept the quest first. Do you accept my quest?
+
+blacksmith quest state: The quest state for the villager is 'GIVEN'.
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: I acce
+pt it.
+Player: I accept it.
+blacksmith quest state: The quest state for the villager is 'GIVEN'.
+Sam: Great! Your quest state is 'GIVEN'. Remember to bring me exactly one werewolf claw. Come back to me after you have completed the task. Good luck, player!
+
+blacksmith quest state: The quest state for the villager is 'GIVEN'.
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: TERMIN
+ATE
+Player: TERMINATE
+
+######################################################
+Trial 3: Quest state and player auto reply on action to take is not switching or correct
+action to be done
+0
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: 
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+TALK
+talking to blacksmith
+0
+Hi do you need help?
+Sam: Yes, I need help. I am Sam, the local Blacksmith here in Village A. I am in need of a werewolf's claw to forge a weapon. Are you by any chance up for a task?
+blacksmith quest state: Based on the information given, the quest state for the villager (Sam) should be 'GIVEN' as he has given the quest to the player but the player has not yet finished the quest.
+1
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure w
+here are the werewolves
+Player: Sure where are the werewolves
+blacksmith quest state: Based on the given information and the chat_messages, the current quest state for the villager (Sam) is 'GIVEN' as the quest has been given to the player but they have not yet finished it to complete it.
+2
+Sam: The werewolves are usually seen in the grasslands near Village A. Can you bring me one of their claws?
+
+blacksmith quest state: Based on the given information and the chat_messages, the current quest state for the villager (Sam) is 'GIVEN' as the quest has been given to the player but they have not yet finished it to complete it.
+3
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: yes, p
+lease wait for my good news
+Player: yes, please wait for my good news
+blacksmith quest state: Based on the given information and the chat_messages, the current quest state for the villager (Sam) is 'GIVEN' as the quest has been given to the player but they have not yet finished it to complete it.
+4
+Sam: Great! Remember to come back to me after you have completed the task.
+
+blacksmith quest state: Based on the given information and the chat_messages, the current quest state for the villager (Sam) is 'GIVEN' as the quest has been given to the player but they have not yet finished it to complete it.
+5
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: END   
+Player: END
+breaking
+action to be done
+6
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+TALK
+talking to blacksmith
+6
+END
+action to be done
+7
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ GRASSLAND
+GRASSLAND
+At grassland
+action to be done
+8
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ FIGHT
+FIGHT
+num_claw: 1
+action to be done
+9
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: VILLAGE A
+VILLAGE A
+At village A
+
+##########################################3
+Trial 4: getting action and quest_state from game master and player auto is not correct
+Action to do
+0
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: 
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+talking to blacksmith
+0
+Hi do you need help?
+Sam: Yes, I need help. I am Sam, the local Blacksmith here in Village A. I am in need of a werewolf's claw to forge a weapon. Are you by any chance up for a task?
+blacksmith quest state: Based on the given information, the quest state for the villager (Sam) would be 'GIVEN'. This is because Sam has given the quest to the player (to kill the werewolf and bring back one WEREWOLF's claw), but it is not yet known whether the player has completed the quest or not.
+1
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure where are the werewolves?
+Player: Sure where are the werewolves?
+blacksmith quest state: Based on the given information and the current state of the quest, the quest state for the villager would be 'NOT GIVEN' if the player did not accept the quest, or if Sam did not give the quest or did not have a conversation with the Blacksmith. If the villager has given the quest to the player but the player has not finished it yet, the quest state would be 'GIVEN'. If the player has completed the quest, the quest state would be 'COMPLETE'.
+2
+Sam: The werewolves are usually found in the grassland near the Village A. Can you please bring me one werewolf's claw?
+
+blacksmith quest state: Based on the given information, the quest state for the villager (Sam) would be 'GIVEN'. This is because Sam has given the quest to the player (to kill the werewolf and bring back one WEREWOLF's claw), but it is not yet known whether the player has completed the quest or not.
+3
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: END   
+Player: END
+breaking
+Action to do
+4
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ GRASSLAND
+At grassland
+Action to do
+5
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ FIGHT
+num_claw: 1
+Action to do
+6
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ VILLAGE A
+At village A
+Action to do
+7
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+talking to blacksmith
+7
+Hi I have completed the task please give me the reward. 
+Sam: I'm sorry, but I cannot simply take your word for it. Please bring me the werewolf's claw as proof that you have completed the task, and only then can I give you the reward. The werewolves can be found in the grasslands just outside the village. Good luck!
+blacksmith quest state: Based on the given information and chat messages, the quest state for the villager (Sam) is 'GIVEN'.
