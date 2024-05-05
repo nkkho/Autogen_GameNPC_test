@@ -66,16 +66,22 @@ class Player:
     def mergeDict(self, other:Dict[str,int]):
         self.items = dict(Counter(self.items) + Counter(other))
     
-    def moving(self, message):
-        prompt = f"""You can go to following locations:
-        VILLAGE A or GRASSLAND
+    def action(self):
+        prompt = f"""
         In VILLAGE A, you can talk to Blacksmith.
         In GRASSLAND, you can hunt and kill werewolf
-        You are currently at {self.location}. Based on {message}, choose a location you want to go or stay.
-        Reply 'VILLAGE A' if you want to go or stay at VILLAGE A, reply 'GRASSLAND' if you want to stay or go to GRASSLAND"""
-        self.location = self.agent.generate_reply({"content":prompt, "role":'user'})
 
+        You are currently at {self.location}. Based on your chat_messages, choose the action you want to take.
+        If chat_message is empty, choose base on your system_message
+        Reply 'TALK' if you want to talk to Blacksmith
+        Reply 'FIGHT' if you want to fight with werewolf
+        Reply 'VILLAGE A' if you want to go to VILLAGE A, reply 'GRASSLAND' if you want to go to GRASSLAND"""
+        return self.agent.generate_reply([{"content":prompt, "role":"user"}])
     
+    def broadcasting(self, agents:List,message):
+        for agent in agents:
+            self.agent.send(message,agent, request_reply=False, silent=True)
+
 class Villager:
     def __init__(self,config,request_item:str,reward:Dict[str,int],location:str):
         self.agent = None
@@ -85,15 +91,29 @@ class Villager:
         self.reward = reward
         self.reward_state = 1
         self.location = location
-    
-    def update_system_message(self, filepath, cur_input):
-        message = generate_prompt(cur_input,filepath)
+        self.prompt_input = {"name":self.config["name"],"living":self.config["living"],"location":self.location,
+                                "quest":self.config["quest"],"quest_state":self.quest_state,"personality":self.config["personality"],"job":self.config["job"],"reward":self.reward}
+    def update_system_message(self, filepath):
+        message = generate_prompt(list(self.prompt_input.values()),filepath)
         self.agent.update_system_message(message)
-        
 
-    def quest_completion(self,items: Dict[str,int]):
-        if self.request in items.keys():
-            self.quest_state = "completed"
+    def switchqueststate(self,newState):
+        if newState == self.quest_state:
+            return
+        self.quest_state = newState
+        self.prompt_input["quest_state"]=newState
+        self.update_system_message(self.config["message_path"])
+
+    def broadcasting(self, agents:List,message):
+        for agent in agents:
+            self.agent.send(message,agent, request_reply=False, silent=True)
+        
+    def rewardGiving(self): 
+        prompt = f"""current quest state is {self.quest_state}. Based on the chat_messages, decide whether to give player the reward or not.
+        Only give the reward when quest state is completed and when player request.
+        Reply 'REWARD' if you will give reward to the user. Reply 'NO' if you are not giving reward to the user."""
+        return self.agent.generate_reply([{"content":prompt,"role":"assistant"}],sender=self,silent=True)
+
 
     
 
@@ -108,20 +128,33 @@ class GameMaster:
         self.player = player
 
     def fight(self,player:int,monster:int):
-        prompt = f"""You are the game master of this game. Now Player and Werewolf are Fighting. 
+        prompt = f"""Now Player and Werewolf are Fighting. 
         Player's strength is {player}. Werewolf's strength is {monster}.
         Based on their strength, determines who wins. If player wins, reply 'WIN', else reply 'LOSE'"""
 
         self.agent.update_system_message(prompt)
-        return self.agent.generate_reply({"content":prompt, "role":'user'})
+        return self.agent.generate_reply([{"content":prompt, "role":'user'}],silent=True)
 
     def broadcasting(self, agents:List,message):
         for agent in agents:
             self.agent.send(message,agent, request_reply=False, silent=True)
 
-    def conversation_initiation(character1:Union[Villager,Player], character2:Union[Villager,Player],message):
-        if character1.location == character2.location:
-            character1.agent.initiate_chat(recipient=character2.agent, clear_history=False, message=message)
-        else:
-            print(f"Not in same location. \n {character1.config['name']} in {character1.location}. {character2.config['name']} in {character2.location}")
-    
+    def quest_state(self, villager:Villager,player:Player):
+        prompt = f"""Villager ({villager.config["name"]}) with agent({villager.agent}) states are as follows:
+        quest: {villager.config["quest"]}, current location: {villager.location}, quest state: {villager.quest_state}, reward to be given: {villager.reward}
+        
+        Player with agent ({player.agent})states are as follows:
+        item player have: {player.items}, current location:{player.location}
+
+        Switching of Villager quest state as follows:
+        'NOT GIVEN' to 'GIVEN';
+        'GIVEN' to 'COMPLETE'
+        'COMPLETE' to 'NOT GIVEN' After the villager gives the reward to player
+
+        Base on the above information and your chat_messages, decide the quest state for the villager.
+        Reply 'NOT GIVEN' if player did not accept the qeust or {villager.config["name"]} did not give the quest or do not have a conversation with Blacksmith
+        Reply 'GIVEN' if villager have given player the quest but player not yet finish the quest
+        Reply 'COMPLETE' if player have complete the quest
+
+        """
+        return self.agent.generate_reply([{"content":prompt, "role":"assistant"}],silent=True)
