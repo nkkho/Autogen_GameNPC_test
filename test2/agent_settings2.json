@@ -5,11 +5,11 @@
         "job":"Blacksmith",
         "living": "VILLAGE A",
         "personality":"passionate and friendly",
-        "quest": "kill the werewolf and bring you exactly one werewolf's claw. The location where werewolves appear is GRASSLAND near the VILLAGE A."
+        "quest": "kill the werewolf and bring you exactly one WEREWOLF's claw. The location where werewolves appear is GRASSLAND near the VILLAGE A."
     },
     {
         "name" : "Player",
-        "system_message" : "A human warrior just arrived VILLAGE A.",
+        "system_message" : "A human warrior just arrived VILLAGE A. You need a better weapon for your future trip. So you decide to go to find Blacksmith.",
         "max_consecutive_auto_reply": 4
     }
 ]
