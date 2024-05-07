@@ -67,15 +67,19 @@ class Player:
         self.items = dict(Counter(self.items) + Counter(other))
     
     def action(self):
-        prompt = f"""
+        prompt = f""" There are two location that you can go: VILLAGE A and GRASSLAND. You can perform differenct action in different location.
         In VILLAGE A, you can talk to Blacksmith.
         In GRASSLAND, you can hunt and kill werewolf
 
-        You are currently at {self.location}. Based on your chat_messages, choose the action you want to take.
-        If chat_message is empty, choose base on your system_message
+        You are currently at {self.location}. Based on your chat_messages, choose the action from below Action List you want to take.
+        Complete the quest is the prioritized thing to do.
+        If chat_message is empty, choose the base on your system_message
+        #########################
+        Action list:
         Reply 'TALK' if you want to talk to Blacksmith
         Reply 'FIGHT' if you want to fight with werewolf
-        Reply 'VILLAGE A' if you want to go to VILLAGE A, reply 'GRASSLAND' if you want to go to GRASSLAND"""
+        Reply 'VILLAGE A' if you want to go to VILLAGE A
+        Reply 'GRASSLAND' if you want to go to GRASSLAND"""
         return self.agent.generate_reply([{"content":prompt, "role":"user"}])
     
     def broadcasting(self, agents:List,message):
@@ -143,7 +147,7 @@ class GameMaster:
         prompt = f"""Villager ({villager.config["name"]}) with agent({villager.agent}) states are as follows:
         quest: {villager.config["quest"]}, current location: {villager.location}, quest state: {villager.quest_state}, reward to be given: {villager.reward}
         
-        Player with agent ({player.agent})states are as follows:
+        Player with agent ({player.agent}) states are as follows:
         item player have: {player.items}, current location:{player.location}
 
         Switching of Villager quest state as follows:
@@ -151,10 +155,9 @@ class GameMaster:
         'GIVEN' to 'COMPLETE'
         'COMPLETE' to 'NOT GIVEN' After the villager gives the reward to player
 
-        Base on the above information and your chat_messages, decide the quest state for the villager.
-        Reply 'NOT GIVEN' if player did not accept the qeust or {villager.config["name"]} did not give the quest or do not have a conversation with Blacksmith
+        Base on the above information and your chat_messages, decide the quest state for the villager
+        Reply 'NOT GIVEN' if player did not accept the quest or {villager.config["name"]} have not give the player the quest
         Reply 'GIVEN' if villager have given player the quest but player not yet finish the quest
         Reply 'COMPLETE' if player have complete the quest
-
         """
         return self.agent.generate_reply([{"content":prompt, "role":"assistant"}],silent=True)
