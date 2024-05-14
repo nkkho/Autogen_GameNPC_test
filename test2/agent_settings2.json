@@ -9,7 +9,8 @@
     },
     {
         "name" : "Player",
-        "system_message" : "A human warrior just arrived VILLAGE A. You need a better weapon for your future trip. So you decide to go to find Blacksmith.",
+        "system_message1" : "You are a human warrior just arrived VILLAGE A. You need a better weapon for your future trip. So you decide to go to find Blacksmith.",
+        "system_message2": "You are a human warrior. You have to complete the quest you received",
         "max_consecutive_auto_reply": 4
     }
 ]
