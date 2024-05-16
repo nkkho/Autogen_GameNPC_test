@@ -51,6 +51,7 @@ class Villager:
         self.location = location
         self.prompt_input = {"name":self.config["name"],"living":self.config["living"],"location":self.location,
                                 "quest":self.config["quest"],"quest_state":self.quest_state,"personality":self.config["personality"],"job":self.config["job"],"reward":self.reward}
+    
     def update_system_message(self, filepath):
         message = generate_prompt(list(self.prompt_input.values()),filepath)
         self.agent.update_system_message(message)
@@ -66,11 +67,30 @@ class Villager:
         for agent in agents:
             self.agent.send(message,agent, request_reply=False, silent=True)
         
-    def rewardGiving(self): 
-        prompt = f"""current quest state is {self.quest_state}. Based on the chat_messages, decide whether to give player the reward or not.
-        Only give the reward when quest state is completed and when player request.
-        Reply 'REWARD' if you will give reward to the user. Reply 'NO' if you are not giving reward to the user."""
-        return self.agent.generate_reply([{"content":prompt,"role":"assistant"}],sender=self,silent=True)
+    def rewardGiving(self,playerTalk): 
+        prompt = f"""Quest state is {self.quest_state}.
+        Now, Player says '{playerTalk}' to you
+
+        Only give the reward when quest state is COMPLETE and when Player request reward
+
+        Question: Will you give the reward to player? 
+        Reply 'YES' if you will give reward to the user. Reply 'NO' if you are not giving reward to the user."""
+        
+        answer = self.agent.generate_reply([{"content":prompt,"role":"assistant"}],silent=True)
+        if "YES" in answer:
+            prompt = f"""Now, Player says '{playerTalk}' to you
+            You decide to give player the reward
+
+            Question: How will you reply player? 
+            """
+        else:
+            prompt = f"""Now, Player says '{playerTalk}' to you
+            You decide not to give player the reward
+
+            Question: How will you reply player? 
+            """
+        message = self.agent.generate_reply([{"content":prompt,"role":"assistant"}],silent=True) #sender parameter removed
+        return  answer,message
 
 
 class Player:
@@ -167,13 +187,11 @@ class GameMaster:
         {self.conversation[f'{player.config["name"]} {villager.config["job"]}'] if f'{player.config["name"]} {villager.config["job"]}' in self.conversation.keys() else ''}
 
         Condition of switching of Villager quest state as follows:
-        'NOT GIVEN' to 'GIVEN' if Villager have given player the quest but player not yet finish the quest;;
-        'GIVEN' to 'SUCCESS' if player collect Villager's required item;;
-        'SUCCESS' to 'COMPLETE' if player receive reward from Villager;;
-        Stay at 'COMPLETE'
+        'NOT GIVEN' to 'GIVEN' if Villager have given player the quest but player not yet finish the quest;
+        'GIVEN' to 'COMPLETE' if player collect Villager's required item;
 
         Question: Based on above information, what is Villager's new quest state?
         Reply one of the following option:
-        'NOT GIVEN' or 'GIVEN' or 'SUCCESS' or 'COMPLETE'
+        'NOT GIVEN' or 'GIVEN' or 'COMPLETE'
         """
         return self.agent.generate_reply([{"content":prompt, "role":"assistant"}],silent=True)
