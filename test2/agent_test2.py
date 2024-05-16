@@ -34,25 +34,26 @@ while round < max_round:
     if (type(action)!=str):
         action = action['content']
     if (action == "TALK"):
+        if player.location != "VILLAGE A":
+            print("You are not at Village A, cannot talk to Blacksmith")
+            continue
         print("talking to blacksmith")
         speaker = None
         message = None
         while round < max_round:
-            bquest_state=gamemaster.quest_state(blacksmith,player)
-            print(f"master state answer: {bquest_state}")
-            if "NOT GIVEN" in bquest_state:
-                blacksmith.switchqueststate("NOT GIVEN")
-            elif "GIVEN" in bquest_state:
-                blacksmith.switchqueststate("GIVEN")
-                player.add_quest(blacksmith)
-                player.agent.update_system_message(player.config["system_message2"])
-            elif "SUCCESS" in bquest_state:
-                blacksmith.switchqueststate("SUCCESS")
-            elif "COMPLETE" in bquest_state:
-                blacksmith.switchqueststate("COMPLETE")
-                if blacksmith.config["job"] in player.quest.keys():
-                    player.quest.pop(blacksmith.config["job"])
+            if blacksmith.quest_state != "DONE" and blacksmith.quest_state != "COMPLETE":
+                bquest_state=gamemaster.quest_state(blacksmith,player)
+                print(f"master state answer: {bquest_state}")
+                if "NOT GIVEN" in bquest_state:
+                    blacksmith.switchqueststate("NOT GIVEN")
+                elif "GIVEN" in bquest_state:
+                    blacksmith.switchqueststate("GIVEN")
+                    player.add_quest(blacksmith)
+                    #player.agent.update_system_message(player.config["system_message2"])
+                elif "COMPLETE" in bquest_state:
+                    blacksmith.switchqueststate("COMPLETE")
             print(f"blacksmith queststate: {blacksmith.quest_state}")
+
             if speaker==None:
                 message = input("Player: ")
                 if message=="END":
@@ -68,50 +69,62 @@ while round < max_round:
                 else:
                     output = message
                 print(f"{speaker.config['name']}: {output}")
-                player.broadcasting([blacksmith.agent],message)
-                gamemaster.joinConversation(player,blacksmith,f"{speaker.config['name']}: {message['content']}")
                 if message["content"]=="END":
-                    print("breaking")
                     speaker = None
                     break
+                player.broadcasting([blacksmith.agent],message)
+                gamemaster.joinConversation(player,blacksmith,f"{speaker.config['name']}: {message['content']}")
+                
                 speaker = blacksmith
             elif speaker==blacksmith:
-                if blacksmith.quest_state=="SUCCESS" and blacksmith.reward_state > 0:
-                    rewardgiving=blacksmith.rewardGiving()
-                    print(rewardgiving)
-                    if rewardgiving=="REWARD":
+                if blacksmith.quest_state=="COMPLETE" and blacksmith.reward_state > 0:
+                    if type(message)!=str:
+                        output = message["content"]
+                    else:
+                        output = message
+                    rewardgiving=blacksmith.rewardGiving(output)
+                    print("blacksmith decision on rewardgiving: ",rewardgiving[0])
+                    if "YES" in rewardgiving[0]:
+                        #blacksmith.broadcasting([blacksmith.agent],"Player complete the mission and brings you a WEREWOLF CLAW")
                         player.mergeDict(blacksmith.reward)
                         player.updateItems(blacksmith.request, -1)
                         blacksmith.reward_state = 0
+                        blacksmith.switchqueststate("DONE")
+                        if blacksmith.config["job"] in player.quest.keys():
+                            player.quest.pop(blacksmith.config["job"])
                         print("reward given")
                         if "WEREWOLF CLAW" in player.items.keys():
                             print("num_claws: "+str(player.items["WEREWOLF CLAW"]))
                         else:
                             print("num_claws: 0")
                         print("player_item:" + str(player.items))
-                message = blacksmith.agent.generate_reply(sender=player.agent)
+                    message = rewardgiving[1]
+                else:
+                    message = blacksmith.agent.generate_reply(sender=player.agent)
                 print(f"{speaker.config['name']}: {message}")
-                gamemaster.joinConversation(player,blacksmith,f"{speaker.config['name']}: {message}")
-                blacksmith.broadcasting([player.agent],message)
-
                 if message=="END":
                     speaker = None
                     break
+                gamemaster.joinConversation(player,blacksmith,f"{speaker.config['name']}: {message}")
+                blacksmith.broadcasting([player.agent],message)
                 speaker = player
-                print()
+            print()
             round+=1
     elif action == "FIGHT":
+        if player.location != "GRASSLAND":
+            print("You are not at grassland, cannot fight with werewolf")
+            continue
         result = gamemaster.fight(player.strength,werewolf.strength)
         if result == "WIN":
             player.updateItems("WEREWOLF CLAW",1)
-            gamemaster.broadcasting([player.agent,blacksmith.agent],"Player kills a werewolf and get a WEREWOLF CLAW")
+            gamemaster.broadcasting([player.agent,blacksmith.agent],"Player kills a werewolf and collect a WEREWOLF CLAW")
             print("Player kills a werewolf")
             print("num_claw: "+ str(player.items["WEREWOLF CLAW"]))
     elif action == "VILLAGE A":
-        print("At village A")
+        print("At Village A")
         player.location = "VILLAGE A"
     elif action == "GRASSLAND":
-        print("At grassland")
+        print("At Grassland")
         player.location = "GRASSLAND"
     else:
         break
