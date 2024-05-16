@@ -387,3 +387,607 @@ re the claws
 Player: Here are the claws
 blacksmith queststate: GIVEN
 Sam: Thank you for bringing the werewolf claw. With this, I can now forge the powerful weapon I had in mind. As promised, here is your reward: a finely crafted weapon and a Village A Blacksmith Letter. Great job, adventurer!
+###################################################
+Trial 8: Update the prompt but stop due to ran out of credit
+Action to do
+0
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: 
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+talking to blacksmith
+master state answer: 'GIVEN'
+Player: Hi do you need help?
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Sam: Greetings, adventurer! Indeed, I could use some help. I need a werewolf claw to forge a powerful weapon. Can you hunt down a werewolf in the grasslands near our village and bring me exactly one werewolf claw? In return, I will reward you with a weapon and a Village A Blacksmith Letter.
+
+master state answer: 'GIVEN'
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure  
+Player: Sure
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Sam: Excellent! Please head to the grasslands, hunt down a werewolf, and bring back exactly one werewolf claw. I trust you to complete this task. Don't forget to come back to me after you complete it. Safe travels, adventurer!
+
+master state answer: 'GIVEN'
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: END   
+Player: END
+breaking
+Action to do
+5
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ GRASSLAND
+At grassland
+Action to do
+6
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ FIGHT
+Player kills a werewolf
+num_claw: 1
+Action to do
+7
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ VILLAGE A
+At village A
+Action to do
+8
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ TALK
+talking to blacksmith
+master state answer: WIN
+Player: Traceback (most recent call last):
+  File "c:\Users\kelly\OneDrive\Desktop\UST\UROP1100\test2\agent_test2.py", line 51, in <module>
+    message = input("Player: ")
+              ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
+PS C:\Users\kelly\OneDrive\Desktop\UST\UROP1100> & C:/Users/kelly/AppData/Local/Programs/Python/Python312/python.exe c:/Users/kelly/OneDrive/Desktop/UST/UROP1100/test2/agent_test2.py
+Action to do
+0
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: 
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+talking to blacksmith
+Traceback (most recent call last):
+  File "c:\Users\kelly\OneDrive\Desktop\UST\UROP1100\test2\agent_test2.py", line 41, in <module>
+    bquest_state=gamemaster.quest_state(blacksmith,player)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\kelly\OneDrive\Desktop\UST\UROP1100\test2\classes2.py", line 165, in quest_state
+    {self.conversation[f'{player.config["name"]} {villager.config["job"]}']}
+     ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'Player Blacksmith'
+PS C:\Users\kelly\OneDrive\Desktop\UST\UROP1100> & C:/Users/kelly/AppData/Local/Programs/Python/Python312/python.exe c:/Users/kelly/OneDrive/Desktop/UST/UROP1100/test2/agent_test2.py
+Action to do
+0
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: 
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+talking to blacksmith
+master state answer: 'GIVEN'
+Player: Hi
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Sam: Hello! How can I assist you today?
+Traceback (most recent call last):
+  File "c:\Users\kelly\OneDrive\Desktop\UST\UROP1100\test2\agent_test2.py", line 88, in <module>
+    gamemaster.joinConversation(player,blacksmith,f"{speaker.config['name']}: {message}")
+  File "c:\Users\kelly\OneDrive\Desktop\UST\UROP1100\test2\classes2.py", line 142, in joinConversation
+    '\n'.join(self.conversation[key],message)
+TypeError: str.join() takes exactly one argument (2 given)
+PS C:\Users\kelly\OneDrive\Desktop\UST\UROP1100> & C:/Users/kelly/AppData/Local/Programs/Python/Python312/python.exe c:/Users/kelly/OneDrive/Desktop/UST/UROP1100/test2/agent_test2.py
+Action to do
+0
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: 
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+talking to blacksmith
+master state answer: 'NOT GIVEN'
+Player: Hi di you need help?
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Sam: Ah, greetings, adventurer! Yes, I could indeed use your help. I am in need of a Werewolf Claw for my work. You can find these beasts in the grasslands near Village A. Could you help me to procure one?
+
+master state answer: 'GIVEN'
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure, 
+how many werewolf claw do you need?
+Player: Sure, how many werewolf claw do you need?
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Sam: I appreciate it! I only need exactly one Werewolf Claw. It's a crucial ingredient in the weapon I'm planning to forge. Remember, they can be found in the grasslands near our village. Be careful though, werewolves are not to be underestimated.
+
+master state answer: 'GIVEN'
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: I comp
+lete the mission
+Player: I complete the mission
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Sam: Good day, brave adventurer! I appreciate your efforts, but as I mentioned before, I can't simply take your word for it. Please return to me with the Werewolf Claw once you've accomplished the task.
+
+master state answer: 'GIVEN'
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: END   
+Player: END
+breaking
+Action to do
+7
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ GRASSLAND
+At grassland
+Action to do
+8
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ FIGHT
+Player kills a werewolf
+num_claw: 1
+Action to do
+9
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ VILLAGE A
+At village A
+Action to do
+10
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ TALK  
+talking to blacksmith
+
+##################################################
+Trial 8, state change success (remove update system message for master + update prompt), but blacksmith didn't give reward
+Action to do
+0
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+
+
+>>>>>>>> NO HUMAN INPUT RECEIVED.
+
+>>>>>>>> USING AUTO REPLY...
+talking to blacksmith
+master state answer: 'NOT GIVEN'
+Player: Hi do you need help?
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Sam: Greetings, traveler. Indeed, I do require your assistance. I am in need of a werewolf claw for my blacksmith work. You can find werewolves in the grassland near our village, Village A. Kindly bring me exactly one werewolf claw. For your troubles, I'll reward you with a weapon and a letter from me, Village A's Blacksmith.
+
+master state answer: 'GIVEN'
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure.
+Player: Sure.
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Sam: Thank you, brave traveler. I'll be waiting for your return. Please come find me after you've completed the task.
+
+master state answer: 'GIVEN'
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: END   
+Player: END
+breaking
+Action to do
+5
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ GRASSLAND
+At grassland
+Action to do
+6
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ FIGHT
+Player kills a werewolf
+num_claw: 1
+Action to do
+7
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ VILLAGE A
+At village A
+Action to do
+8
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ TALK
+talking to blacksmith
+master state answer: 'SUCCESS'
+Player: Hi, I have complete the quest          
+master state answer: 'COMPLETE'
+blacksmith queststate: COMPLETE
+Sam: I'm sorry, but I can't trust just words. Please bring the werewolf claw to me as proof of completing the quest.
+
+####################################333
+Trial 9: switching between success and complete; blacksmith didn't give out reward
+Action to do
+0
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: TALK
+talking to blacksmith
+master state answer: 'NOT GIVEN'
+blacksmith queststate: NOT GIVEN
+Player: Hi, do you need help?
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Sam: Ah, yes indeed! I am in dire need of help. You see, I've run out of materials to forge weapons. I need a werewolf claw. That's exactly what I need. You can find werewolves in the grassland near our village. If you're able to bring me a werewolf claw, I'll reward you with a weapon and a letter of blacksmith of Village A. Would you accept this task?
+
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure  
+Player: Sure
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Sam: Great! Remember, be careful out there in the grassland, werewolves are not easy opponents. Once you have the werewolf claw, come find me. Best of luck!
+
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: END   
+Player: END
+breaking
+Action to do
+5
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ GRASSLAND
+At grassland
+Action to do
+6
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ FIGHT
+Player kills a werewolf
+num_claw: 1
+Action to do
+7
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ VILLAGE A
+At village A
+Action to do
+8
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ TALK
+talking to blacksmith
+master state answer: 'SUCCESS'
+blacksmith queststate: SUCCESS
+Player: Hi, I have complete the task, here is the claw 
+master state answer: 'COMPLETE'
+blacksmith queststate: COMPLETE
+Sam: I'm sorry, I cannot believe you yet. Please come again after you truly complete the task. Stay safe out there.
+
+master state answer: 'SUCCESS'
+blacksmith queststate: SUCCESS
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: end   
+Player: end
+master state answer: 'COMPLETE'
+##########################################
+Trial 9: Adjust end condition to be determined by Blacksmith
+Action to do
+0
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: TALK
+talking to blacksmith
+master state answer: 'NOT GIVEN'
+blacksmith queststate: NOT GIVEN
+Player: Hi, do you need help?
+
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Sam: Ah, greetings traveler! I'm in a bit of a pickle. I need a Werewolf Claw for my work, but they are quite dangerous to hunt. Can you help me out? The werewolves tend to roam around the grasslands near our village. Do be careful though, they are mighty beasts. Should you succeed and bring me one, I promise to reward you with a weapon and a letter from me. Do we have a deal?
+
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: END   
+Player: END
+Action to do
+3
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ GRASSLAND
+At Grassland
+Action to do
+4
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ FIGHT
+Player kills a werewolf
+num_claw: 1
+Action to do
+5
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ VILLAGE A
+At Village A
+Action to do
+6
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ TALK
+talking to blacksmith
+master state answer: 'COMPLETE'
+blacksmith queststate: COMPLETE
+Player: Hi, I have complete the task. Here are the claws.
+
+blacksmith queststate: COMPLETE
+
+Sam: As much as I appreciate your efforts, friend, I must ask you to show me the werewolf claw so I can verify its authenticity. I must do this to ensure that the task has truly been completed.
+
+blacksmith queststate: COMPLETE
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Here a
+re the claws
+Player: Here are the claws
+
+blacksmith queststate: COMPLETE
+
+Sam: Ah, I see you've come back safe and sound. I can see the werewolf claw, it's a magnificent specimen. It's just what I need for my work. For your bravery, here is your reward as I promised. You earned this my friend; a weapon for your inventory and a letter from me, the blacksmith of Village A. It was a pleasure doing business with you.
+
+blacksmith queststate: COMPLETE
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: thanks
+                                                                                                              Player: thanks
+
+blacksmith queststate: COMPLETE
+
+Sam: You're welcome! If you ever need more work or just want to chat, feel free to stop by. Safe travels, friend!
+
+blacksmith queststate: COMPLETE
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: END   
+Player: END
+Action to do
+13
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ END
+
+ #######################################
+ Trial 10: Conversation flow is fine but reward giving is not producing an output
+Action to do
+0
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: TALK
+talking to blacksmith
+master state answer: 'NOT GIVEN'
+blacksmith queststate: NOT GIVEN
+Player: Hi do you need help?
+
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Sam: Hello there, brave traveler! Indeed, I require assistance in procuring a Werewolf Claw. You see, I'm a bit short on materials for forging weapons. The grasslands near our village, Village A, are known to be frequented by these beasts. The task is not an easy one, but if you're able to help me, there is a reward waiting for you. Are you up to the task? Remember, I need exactly one Werewolf Claw.
+
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: END   
+Player: END
+Action to do
+3
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ GRASSLAND
+At Grassland
+Action to do
+4
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ FIGHT
+Player kills a werewolf
+num_claw: 1
+Action to do
+5
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ VILLAGE A
+At Village A
+Action to do
+6
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ TALK
+talking to blacksmith
+master state answer: 'COMPLETE'
+blacksmith queststate: COMPLETE
+Player: I have complete the task, here are the claws. Can you give me the reward
+
+blacksmith queststate: COMPLETE
+blacksmith decision on rewardgiving:
+Sam: I'm grateful for your effort, traveler, But I must ensure of the authenticity of this Werewolf Claw you've procured for me. Please, give me a moment to confirm it. I will acknowledge your success once I have verified it myself.
+
+blacksmith queststate: COMPLETE
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure  
+Player: Sure
+
+blacksmith queststate: COMPLETE
+blacksmith decision on rewardgiving:
+Sam: Alright, thank you for your understanding. You've certainly accomplished a difficult task. For this reason, I am pleased to award you with your hard-earned reward; a weapon and a letter from Blacksmith of Village A. I hope these will serve you well on your future journeys. Thank you again for your help.
+
+blacksmith queststate: COMPLETE
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: END   
+Player: END
+Action to do
+11
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ END
+ #####################
+ Trial 11: Return output in reward giving after removal of sender, but wrong input
+Action to do
+0
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: TALK
+talking to blacksmith
+master state answer: 'NOT GIVEN'
+blacksmith queststate: NOT GIVEN
+Player: Hi, Do you need help?
+
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Sam: Hello there, I'm actually in quite a pickle right now. I'm lacking material to forge weapons. I need at least one werewolf claw. Werewolves can be found in the grasslands near our village. Are you able to help me with this task? The reward is one weapon and a 'Village A Blacksmith Letter'.
+
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: END   
+Player: END
+Action to do
+3
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ GRASSLAND
+At Grassland
+Action to do
+4
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ FIGHT
+Player kills a werewolf
+num_claw: 1
+Action to do
+5
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ VILLAGE A
+At Village A
+Action to do
+6
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ TALK
+talking to blacksmith
+master state answer: 'COMPLETE'
+blacksmith queststate: COMPLETE
+Player: Hi, I have completed the task. Here are the claws. Can you give me the reward?
+
+blacksmith queststate: COMPLETE
+blacksmith decision on rewardgiving:  NO
+Sam: I appreciate your help, but I need to check whether you've truly completed the task. Please come find me after the quest status changes to 'COMPLETE'. Trust and honesty go a long way.
+#################################
+Trial 12: reward giving perform the right thing, but blacksmith didn't say the correct thing
+Action to do
+0
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: TALK          
+talking to blacksmith
+master state answer: 'NOT GIVEN'
+blacksmith queststate: NOT GIVEN
+Player: Hi, do you need help?
+
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Sam: Ah, hello there! I'm indeed in need of some assistance. Currently, I am running low on materials to forge weapons. I need a werewolf claw to continue my work. Werewolves usually appear in the grassland near our village, Village A. Can you bring me one? The reward will be a fine weapon and a letter from the Village A Blacksmith. How does that sound?
+
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Yes, I
+ would like to do so
+Player: Yes, I would like to do so
+
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Sam: Oh, thank you! That's a great help. Don't forget to find me after you finish the task. Best of luck to you!
+
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: END   
+Player: END
+Action to do
+5
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ GRASSLAND
+At Grassland
+Action to do
+6
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ FIGHT
+Player kills a werewolf
+num_claw: 1
+Action to do
+7
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ VILLAGE A
+At Village A
+Action to do
+8
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ TALK
+talking to blacksmith
+master state answer: 'COMPLETE'
+blacksmith queststate: COMPLETE
+Player: Hi, I have completed the task, here are the claws. Can you give me the reward?
+
+blacksmith queststate: COMPLETE
+blacksmith decision on rewardgiving:  YES
+reward given
+num_claws: 0
+player_item:{'WEAPON': 1, 'VILLAGE A BLACKSMITH LETTER': 1}
+Sam: Ah, good to see you. I appreciate your hard work. However, for security reasons, I need you to come find me after the completion of the task. I cannot confirm your completion at this moment.
+
+master state answer: 'NOT GIVEN'
+blacksmith queststate: NOT GIVEN
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: END   
+Player: END
+Action to do
+11
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: END
+############################
+Trial 13: reward given but conversation not givenAction to do
+0
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: VILLAGE A
+At Village A
+Action to do
+1
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ TALK
+talking to blacksmith
+master state answer: 'NOT GIVEN'
+blacksmith queststate: NOT GIVEN
+Player: Hi, do you need help?
+
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Sam: Ah, hello there! Yes, I am indeed in need of help. I need the claw of a werewolf to forge weapons but they inhabit the grasslands near our village and it's hazardous for me to venture out. So, if you could slay a werewolf and bring me exactly one of it's claws, I'll reward you with a weapon and something special from my personal collection. Are you up for this task?
+
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Sure  
+Player: Sure
+
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Sam: Excellent! Please take care, the werewolves around the Grasslands near Village A can be quite dangerous. Come and find me after you've completed the task. Good luck!
+
+master state answer: 'GIVEN'
+blacksmith queststate: GIVEN
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: END   
+Player: END
+Action to do
+6
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ GRASSLAND
+At Grassland
+Action to do
+7
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ FIGHT
+Player kills a werewolf
+num_claw: 1
+Action to do
+8
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ VILLAGE A
+At Village A
+Action to do
+9
+Provide feedback to the sender. Press enter to skip and use auto-reply, or type 'exit' to end the conversation:
+ TALK
+talking to blacksmith
+master state answer: 'COMPLETE'
+blacksmith queststate: COMPLETE
+Player: Hi, I have completed the task. Here are the claws, can you give me the reward?
+
+blacksmith queststate: COMPLETE
+blacksmith decision on rewardgiving:  YES
+reward given
+num_claws: 0
+player_item:{'WEAPON': 1, 'VILLAGE A BLACKSMITH LETTER': 1}
+Sam: Ah, I apologize for the confusion but currently, I'm unable to confirm if you've actually completed the task. But, if indeed you have, I'll surely see it and you'll receive your reward. For the time being, feel free to explore the village or perhaps even assist others in need. Good luck!
+
+blacksmith queststate: DONE
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: Here a
+re the claws
+Player: Here are the claws
+
+blacksmith queststate: DONE
+Sam: Ah, I see. However, as I mentioned before, I can't verify at this moment if these claws are indeed from the werewolf. Please, be patient. I will surely reward you if you have truly completed the task. Until then, feel free to take a look around my blacksmith shop or enjoy the beautiful Village A.
+
+blacksmith queststate: DONE
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: okay, 
+have you finished confirmation?
+Player: okay, have you finished confirmation?
+
+blacksmith queststate: DONE
+Sam: I'm sorry for any misunderstanding, but due to the current state of affairs, I am unable to provide any confirmation or reward at this moment. For now, please feel free to look around the village or get to know some of the other villagers. I assure you, once everything is clear, you will get your well-earned reward. Thank you for your patience!
+########################################33
+Trial 14: better after generating message with prompt in function rewardgiving
+TALK
+talking to blacksmith
+blacksmith queststate: COMPLETE
+Player: I completed the mission, here is the claw. Please give me the reward
+
+blacksmith queststate: COMPLETE
+blacksmith decision on rewardgiving:  ('YES', '"Great job, traveler! I see you have the werewolf claw I requested. Since our quest state is complete, I am happy to give you your rewards. Here you go, here are your weapons and a letter from the smiths of Village A. Use them wisely and stay safe out there!"')
+reward given
+num_claws: 0
+player_item:{'WEAPON': 1, 'VILLAGE A BLACKSMITH LETTER': 1}
+Sam: "Great job, traveler! I see you have the werewolf claw I requested. Since our quest state is complete, I am happy to give you your rewards. Here you go, here are your weapons and a letter from the smiths of Village A. Use them wisely and stay safe out there!"
+
+blacksmith queststate: DONE
+Provide feedback to Sam. Press enter to skip and use auto-reply, or type 'exit' to end the conversation: END   
+Player: END
