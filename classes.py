@@ -25,10 +25,11 @@ class Player:
 
     
 class Villager:
-    def __init__(self,config,request_item:str,reward:Dict[str,int]):
+    def __init__(self,config,request_item:str,reward:Dict[str,int],location):
         self.agent = None
         self.quest_state = 0
         self.config = config
         self.request = request_item
         self.reward = reward
         self.reward_state = 1
+        self.location = location
